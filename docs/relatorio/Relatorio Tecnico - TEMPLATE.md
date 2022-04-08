@@ -10,11 +10,15 @@ Ciência da Computação
 
 ## Participantes
 
-Helena Ferreira Fernandes
-Matheus Pimentel Kansaon
-Olga Camilla Silva Teodoro
-Saulo Braga Silveira
-Vinicius Augusto Alves Santos Mello
+- Helena Ferreira Fernandes
+
+- Matheus Pimentel Kansaon
+
+- Olga Camilla Silva Teodoro
+
+- Saulo Braga Silveira
+
+- Vinicius Augusto Alves Santos Mello
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
