@@ -363,7 +363,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Controle de Versão
 
 ...... COLOQUE AQUI O SEU TEXTO ......
-
+> A configuração do projeto foi criado pensando na praticidade de acesso por parte de todos integrantes
 > Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
 > commits e branchs é realizada. Discuta como a gerência de issues foi
