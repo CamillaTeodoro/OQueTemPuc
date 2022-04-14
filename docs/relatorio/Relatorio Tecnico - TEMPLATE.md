@@ -194,40 +194,44 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
+Requisitos funcionais são todas as necessidades, características ou funcionalidades esperadas em um processo que podem ser atendidos pelo software.
+
+Já os Requisitos Não Funcionais definem como o sistema fará.
+
 ### Requisitos Funcionais
 
-| ID     | Descrição do Requisito                  | Prioridade |
-| ------ | --------------------------------------- | ---------- |
-| RF-001 | Permitir que o usuário cadastre tarefas | ALTA       |
-| RF-002 | Emitir um relatório de tarefas no mês   | MÉDIA      |
+| ID     | Descrição do Requisito                           | Prioridade |
+| ------ | ------------------------------------------------ | ---------- |
+| RF-001 | Permitir que o usuário faça Login para           | ALTA       |
+|        | acessar o aplicativo                             |            |
+| RF-002 | Permitir o cadastro de produtos e                | ALTA       |
+|        | ofertas pelos restaurantes e padarias            |            |
+| RF-003 | Permitir que o aluno favorite o estabelecimento. | BAIXA      |
+| RF-004 | Permitir que o comerciante visualize             | MÉDIA      |
+| RF-002 | Emitir um relatório de tarefas no mês            | MÉDIA      |
+| RF-002 | Emitir um relatório de tarefas no mês            | MÉDIA      |
+| RF-002 | Emitir um relatório de tarefas no mês            | MÉDIA      |
+| RF-002 | Emitir um relatório de tarefas no mês            | MÉDIA      |
 
 ### Requisitos não Funcionais
 
 | ID      | Descrição do Requisito                                            | Prioridade |
 | ------- | ----------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA      |
+| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA       |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
 | RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
->
-> **Links Úteis**:
->
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+> Links externos:
+
+- [PUC MINAS em números.](https://www.pucminas.br/AdministracaoSuperior/Secretarias/Documents/puc_numeros_2019_02.pdf)
 
 ## Restrições
 
