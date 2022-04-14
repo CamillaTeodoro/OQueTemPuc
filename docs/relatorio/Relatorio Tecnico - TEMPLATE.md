@@ -200,34 +200,38 @@ Já os Requisitos Não Funcionais definem como o sistema fará.
 
 ### Requisitos Funcionais
 
-| ID     | Descrição do Requisito                           | Prioridade |
-| ------ | ------------------------------------------------ | ---------- |
-| RF-001 | Permitir que o usuário faça Login para           | ALTA       |
-|        | acessar o aplicativo                             |            |
-| RF-002 | Permitir o cadastro de produtos e                | ALTA       |
-|        | ofertas pelos restaurantes e padarias            |            |
-| RF-003 | Permitir que o aluno favorite o estabelecimento. | BAIXA      |
-| RF-004 | Permitir que o comerciante visualize             | MÉDIA      |
-| RF-002 | Emitir um relatório de tarefas no mês            | MÉDIA      |
-| RF-002 | Emitir um relatório de tarefas no mês            | MÉDIA      |
-| RF-002 | Emitir um relatório de tarefas no mês            | MÉDIA      |
-| RF-002 | Emitir um relatório de tarefas no mês            | MÉDIA      |
+| ID     | Descrição do Requisito                                             | Prioridade |
+| ------ | ------------------------------------------------------------------ | ---------- |
+| RF-001 | Permitir que o aluno utilize o aplicativo sem fazer login          | ALTA       |
+| RF-002 | Permitir o cadastro do aluno e comerciante com email e senha       | ALTA       |
+| RF-003 | Permitir alteração dos dados de cadastro dos alunos e comerciantes | ALTA       |
+| RF-004 | Permitir que o aluno favorite o estabelecimento.                   | BAIXA      |
+| RF-005 | Permitir que o aluno visualize a lista de favoritos                | BAIXA      |
+| RF-006 | Permitir que o aluno pesquise pelo produto que ele quer consumir   | MÉDIA      |
+| RF-007 | Permitir o compartilhamento de ofertas pelo WhatsApp               | MÉDIA      |
+| RF-008 | Permitir que o comerciante cadastrar seus produtos ou ofertas      | ALTA       |
+| RF-009 | Permitir que o comerciante veja uma relação de ofertas cadastradas | ALTA       |
+| RF-010 | Permitir que o comerciante veja o valor da assinatura mensal       | BAIXA      |
+| RF-011 | Permitir que o comerciante emita o boleto de assinatura mensal     | BAIXA      |
+| RF-012 | Permitir que o comerciante veja o histórico de pagamento           | BAIXA      |
+| RF-013 | Permitir que o comerciante coloque um link para seu site externo   | ALTA       |
+| RF-014 | Permitir que o comerciante delete as ofertas                       | ALTA       |
 
 ### Requisitos não Funcionais
 
-| ID      | Descrição do Requisito                                            | Prioridade |
-| ------- | ----------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel | ALTA       |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
+| ID      | Descrição do Requisito                                | Prioridade |
+| ------- | ----------------------------------------------------- | ---------- |
+| RNF-001 | O sistema deve ser mobile first                       | ALTA       |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
+| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
 
 > Links externos:
 
