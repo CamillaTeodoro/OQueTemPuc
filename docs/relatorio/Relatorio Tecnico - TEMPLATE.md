@@ -209,29 +209,27 @@ Já os Requisitos Não Funcionais definem como o sistema fará.
 | RF-005 | Permitir que o aluno visualize a lista de favoritos                | BAIXA      |
 | RF-006 | Permitir que o aluno pesquise pelo produto que ele quer consumir   | MÉDIA      |
 | RF-007 | Permitir o compartilhamento de ofertas pelo WhatsApp               | MÉDIA      |
-| RF-008 | Permitir que o comerciante cadastrar seus produtos ou ofertas      | ALTA       |
+| RF-008 | Permitir que o comerciante cadastre/altere/exclua suas ofertas     | ALTA       |
 | RF-009 | Permitir que o comerciante veja uma relação de ofertas cadastradas | ALTA       |
 | RF-010 | Permitir que o comerciante veja o valor da assinatura mensal       | BAIXA      |
 | RF-011 | Permitir que o comerciante emita o boleto de assinatura mensal     | BAIXA      |
 | RF-012 | Permitir que o comerciante veja o histórico de pagamento           | BAIXA      |
 | RF-013 | Permitir que o comerciante coloque um link para seu site externo   | ALTA       |
-| RF-014 | Permitir que o comerciante delete as ofertas                       | ALTA       |
+| RF-014 | Permitir que o comerciante insira data final nas ofertas           | ALTA       |
 
 ### Requisitos não Funcionais
 
 | ID      | Descrição do Requisito                                | Prioridade |
 | ------- | ----------------------------------------------------- | ---------- |
 | RNF-001 | O sistema deve ser mobile first                       | ALTA       |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s | BAIXA      |
+| RNF-002 | Deve carregar página inicial em no máximo 3s          | MÉDIA      |
+| RNF-003 | Deve ser multiplataforma (IOS/Android/Windows/MacOS ) | ALTA       |
+| RNF-004 | Deve estar disponivel offline                         | MÉDIA      |
+| RNF-005 | Deve ser desenvolvido em HTML, CSS e Javascript       | ALTA       |
+| RNF-006 | Deve retornar resultado de pesquisa em no máximo 3s   | BAIXA      |
+| RNF-007 | Banco de dados deve suportar                          | BAIXA      |
+| RNF-008 | Servidor deve suportar 1000 requisições por hora      | BAIXA      |
+| RNF-009 | Deve excluir ofertas vencidas automaticamente         | MÉDIA      |
 
 > Links externos:
 
@@ -245,14 +243,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | --- | ----------------------------------------------------- |
 | 01  | O projeto deverá ser entregue até o final do semestre |
 | 02  | Não pode ser desenvolvido um módulo de backend        |
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
->
-> **Links Úteis**:
->
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 # Projeto de Interface
 
