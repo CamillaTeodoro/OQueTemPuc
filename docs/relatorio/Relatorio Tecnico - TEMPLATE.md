@@ -226,9 +226,9 @@ Já os Requisitos Não Funcionais definem como o sistema fará.
 | RNF-003 | Deve ser multiplataforma (IOS/Android/Windows/MacOS ) | ALTA       |
 | RNF-004 | Deve estar disponivel offline                         | MÉDIA      |
 | RNF-005 | Deve ser desenvolvido em HTML, CSS e Javascript       | ALTA       |
-| RNF-006 | Deve retornar resultado de pesquisa em no máximo 3s   | BAIXA      |
-| RNF-007 | Banco de dados deve suportar                          | BAIXA      |
-| RNF-008 | Servidor deve suportar 1000 requisições por hora      | BAIXA      |
+| RNF-006 | Deve retornar resultado de pesquisa em no máximo 3s   | MÉDIA      |
+| RNF-007 | Deve suportar aumento do número de cadastros          | MÉDIA      |
+| RNF-008 | Servidor deve suportar 1000 requisições por hora      | ALTA       |
 | RNF-009 | Deve excluir ofertas vencidas automaticamente         | MÉDIA      |
 
 > Links externos:
@@ -242,7 +242,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | ID  | Restrição                                             |
 | --- | ----------------------------------------------------- |
 | 01  | O projeto deverá ser entregue até o final do semestre |
-| 02  | Não pode ser desenvolvido um módulo de backend        |
+| 02  | O desenvolvimento do site não pode ser terceirizado   |
 
 # Projeto de Interface
 
