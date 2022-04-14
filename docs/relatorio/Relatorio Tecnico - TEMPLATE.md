@@ -317,14 +317,16 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-...... COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
->
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+> ### Scrum Master
+> * Rommel Vieira Carneiro
+> ### Product Owner
+> * Julio Cesar Dillinger Conway
+> ### Equipe de Desenvolvimento
+> * Helena Ferreira Fernandes
+> * Matheus Pimentel Kansaon
+> * Olga Camilla Silva Teodoro
+> * Saulo Braga Silveira
+> * Vinicius Augusto Alves Santos Mello
 
 ## Ferramentas
 
