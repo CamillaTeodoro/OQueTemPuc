@@ -296,8 +296,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 > O método "Design Thinking" foi utilizado na fase de concepção do projeto. 
-> Já na fase de desenvolvimento, a forma de gerenciar o projeto escolhida pelo grupo foi o Scrumban.
-
+> Já na fase de desenvolvimento, a forma de gerenciamento escolhida pela equipe foi o Scrumban.
 ## Divisão de Papéis
 
 > ### Scrum Master
