@@ -346,12 +346,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Controle de Versão
 
-...... COLOQUE AQUI O SEU TEXTO ......
-> A configuração do projeto foi criado pensando na praticidade de acesso por parte de todos integrantes
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
 > A ferramenta de controle de versão adotada no projeto foi o
 > [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 > foi utilizado para hospedagem do repositório `upstream`.
@@ -363,22 +357,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - `testing`: versão em testes do software
 > - `dev`: versão de desenvolvimento do software
 >
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
+> Quanto à gerência de commits cada desenvolvedor tem a sua autononomia, porém deve-se respeitar
+> os limites das branchs. Ao efetuar um commit é realizado o pull requests para averiguação das mundanças. 
 >
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
->
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+> Quanto aos merges somente é utilizado na branch master caso alguma alteração tenha obtido um resultado
+> satisfatório, nos testes. Em relação as tags ou issues a equipe optou por não utilizar neste primeiro momento.
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
