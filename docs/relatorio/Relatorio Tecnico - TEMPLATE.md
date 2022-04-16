@@ -358,10 +358,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - `dev`: versão de desenvolvimento do software
 >
 > Quanto à gerência de commits cada desenvolvedor tem a sua autononomia, porém deve-se respeitar
-> os limites das branchs, por medida de segurança ao efetuar um commit é realizado o pull requests para averiguação das mundanças. 
+> o propósito de cada branch, também por medida de segurança ao efetuar um commit é realizado o pull requests para averiguação das mundanças. 
 >
-> Quanto aos merges somente é utilizado na branch master caso alguma alteração tenha obtido um resultado
-> satisfatório, nos testes. Em relação as tags ou issues a equipe optou por não utilizar neste primeiro momento.
+> Os merges são utilizados para a unificação, sendo executado somente após a finalização dos testes. Em relação as tags 
+> ou issues a equipe optou por não utilizar neste primeiro momento.
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
