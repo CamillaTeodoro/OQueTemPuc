@@ -95,7 +95,7 @@ Ciência da Computação
 
 ...... COLOQUE AQUI O SEU TEXTO ......
 >
-> ![Primeira persona](imagens/Persona1.png);
+> ![Primeira persona](imaages/../images/Persona1.png);
 > ![Primeiro mapa de empatia](imagens/MapaEmpatia1.jpg);
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que
 > você deve ser enumerar e descrever precisamente e de forma
