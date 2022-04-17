@@ -90,19 +90,18 @@ Ciência da Computação
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
 > realizar a especificações do projeto
-
 ## Personas e Mapas de Empatia
-
-...... COLOQUE AQUI O SEU TEXTO ......
->## Primeira persona e mapa de empatia
+>1. Primeira persona e mapa de empatia
 >  
 > ![Primeira persona](imaages/../images/Persona1.png)
 > ![Primeiro mapa de empatia](imaages/../images/MapaEmpatia1.jpg)
->## Segunda persona e mapa de empatia
+>  
+>2. Segunda persona e mapa de empatia
 >  
 > ![Segunda persona](imaages/../images/Persona2.png)
 > ![Segundo mapa de empatia](imaages/../images/MapaEmpatia2.jpg)
->## Terceira persona e mapa de empatia
+>  
+>3. Terceira persona e mapa de empatia
 >  
 > ![Segunda persona](imaages/../images/Persona3.png)
 > ![Segundo mapa de empatia](imaages/../images/MapaEmpatia3.jpg)
