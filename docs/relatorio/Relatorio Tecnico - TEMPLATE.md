@@ -267,37 +267,29 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Ferramentas
 
-...... COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO ......
-
 | Ambiente                    | Plataforma        | Link de Acesso                |
 | --------------------------- | ----------------- | ----------------------------- |
-| Processo de Design Thinkgin | Miro              | https://miro.com/XXXXXXX      |
-| Repositório de código       | GitHub            | https://github.com/XXXXXXX    |
-| Hospedagem do site          | Heroku            | https://XXXXXXX.herokuapp.com |
-| Protótipo Interativo        | MavelApp ou Figma | https://figma.com/XXXXXXX     |
+| Processo de Design Thinkgin | Miro              | https://miro.com	          |
+| Repositório de código       | GitHub            | encurtador.com.br/clvHP       |
+| Hospedagem do site          | Replit            | https://replit.com/		  |
+| Protótipo Interativo        | Figma             | https://figma.com/XXXXXXX     |
+| Editor de código            | Vs code           | https://code.visualstudio.com/|
+| Ferramenta de comunicação   | WhatsApp          | encurtador.com.br/lpsS1       |
+| Ferramenta de comunicação   | Microsoft Teams   | encurtador.com.br/vKN79       |
 
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
->
+
 > As ferramentas empregadas no projeto são:
->
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
->
+> - Visual studio code.
+> - Whatsaap.
+> - Figma.
+> - Replit.
+> - Microsoft Teams
+
 > O editor de código foi escolhido porque ele possui uma integração com o
 > sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
+> um fácil manuseio por isso foram selecionadas. Por fim, para criar
+> diagramas utilizamos o figma por melhor captar as
 > necessidades da nossa solução.
->
-> **Links Úteis - Hospedagem**:
->
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
 
 ## Controle de Versão
 
@@ -313,9 +305,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - `dev`: versão de desenvolvimento do software
 >
 > Quanto à gerência de commits cada desenvolvedor tem a sua autononomia, porém deve-se respeitar
-> o propósito de cada branch, também por medida de segurança ao efetuar um commit é realizado o pull requests para averiguação das mundanças. 
+> o propósito de cada branch. 
 >
-> Os merges são utilizados para a unificação, sendo executado somente após a finalização dos testes. Em relação as tags 
+> Os merges são utilizados para a unificação, sendo executado somente após a finalização dos testes, também 
+> por medida de segurança ao efetuar um merge é realizado o pull requests para averiguação das mundanças.
+> Em relação as tags 
 > ou issues a equipe optou por não utilizar neste primeiro momento.
 
 # **############## SPRINT 1 ACABA AQUI #############**
