@@ -2,11 +2,7 @@
 
 `TÍTULO DO PROJETO`
 
-<<<<<<< HEAD
 Informações sobre bares e restaurantes dentro e ao redor da PUC.
-=======
-Bares e Restaurantes
->>>>>>> master
 
 `CURSO`
 
