@@ -2,7 +2,11 @@
 
 `TÍTULO DO PROJETO`
 
+<<<<<<< HEAD
 Informações sobre bares e restaurantes dentro e ao redor da PUC.
+=======
+Bares e Restaurantes
+>>>>>>> master
 
 `CURSO`
 
@@ -19,13 +23,6 @@ Ciência da Computação
 - Saulo Braga Silveira
 
 - Vinicius Augusto Alves Santos Mello
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são:
->
-> - Fulano da Silva
-> - Ciclano Albuquerque
 
 # Estrutura do Documento
 
@@ -149,40 +146,46 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
+Requisitos funcionais são todas as necessidades, características ou funcionalidades esperadas em um processo que podem ser atendidos pelo software.
+
+Já os Requisitos Não Funcionais definem como o sistema fará.
+
 ### Requisitos Funcionais
 
-| ID     | Descrição do Requisito                  | Prioridade |
-| ------ | --------------------------------------- | ---------- |
-| RF-001 | Permitir que o usuário cadastre tarefas | ALTA       |
-| RF-002 | Emitir um relatório de tarefas no mês   | MÉDIA      |
+| ID     | Descrição do Requisito                                             | Prioridade |
+| ------ | ------------------------------------------------------------------ | ---------- |
+| RF-001 | Permitir que o aluno utilize o aplicativo sem fazer login          | ALTA       |
+| RF-002 | Permitir o cadastro do aluno e comerciante com email e senha       | ALTA       |
+| RF-003 | Permitir alteração dos dados de cadastro dos alunos e comerciantes | ALTA       |
+| RF-004 | Permitir que o aluno favorite o estabelecimento.                   | BAIXA      |
+| RF-005 | Permitir que o aluno visualize a lista de favoritos                | BAIXA      |
+| RF-006 | Permitir que o aluno pesquise pelo produto que ele quer consumir   | MÉDIA      |
+| RF-007 | Permitir o compartilhamento de ofertas pelo WhatsApp               | MÉDIA      |
+| RF-008 | Permitir que o comerciante cadastre/altere/exclua suas ofertas     | ALTA       |
+| RF-009 | Permitir que o comerciante veja uma relação de ofertas cadastradas | ALTA       |
+| RF-010 | Permitir que o comerciante veja o valor da assinatura mensal       | BAIXA      |
+| RF-011 | Permitir que o comerciante emita o boleto de assinatura mensal     | BAIXA      |
+| RF-012 | Permitir que o comerciante veja o histórico de pagamento           | BAIXA      |
+| RF-013 | Permitir que o comerciante coloque um link para seu site externo   | ALTA       |
+| RF-014 | Permitir que o comerciante insira data final nas ofertas           | ALTA       |
 
 ### Requisitos não Funcionais
 
-| ID      | Descrição do Requisito                                            | Prioridade |
-| ------- | ----------------------------------------------------------------- | ---------- |
-| RNF-001 | O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA      |
-| RNF-002 | Deve processar requisições do usuário em no máximo 3s             | BAIXA      |
+| ID      | Descrição do Requisito                                | Prioridade |
+| ------- | ----------------------------------------------------- | ---------- |
+| RNF-001 | O sistema deve ser mobile first                       | ALTA       |
+| RNF-002 | Deve carregar página inicial em no máximo 3s          | MÉDIA      |
+| RNF-003 | Deve ser multiplataforma (IOS/Android/Windows/MacOS ) | ALTA       |
+| RNF-004 | Deve estar disponivel offline                         | MÉDIA      |
+| RNF-005 | Deve ser desenvolvido em HTML, CSS e Javascript       | ALTA       |
+| RNF-006 | Deve retornar resultado de pesquisa em no máximo 3s   | MÉDIA      |
+| RNF-007 | Deve suportar aumento do número de cadastros          | MÉDIA      |
+| RNF-008 | Servidor deve suportar 1000 requisições por hora      | ALTA       |
+| RNF-009 | Deve excluir ofertas vencidas automaticamente         | MÉDIA      |
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
->
-> **Links Úteis**:
->
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+> Links externos:
+
+- [PUC MINAS em números.](https://www.pucminas.br/AdministracaoSuperior/Secretarias/Documents/puc_numeros_2019_02.pdf)
 
 ## Restrições
 
@@ -191,15 +194,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | ID  | Restrição                                             |
 | --- | ----------------------------------------------------- |
 | 01  | O projeto deverá ser entregue até o final do semestre |
-| 02  | Não pode ser desenvolvido um módulo de backend        |
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
->
-> **Links Úteis**:
->
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+| 02  | O desenvolvimento do site não pode ser terceirizado   |
 
 # Projeto de Interface
 
