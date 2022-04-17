@@ -261,12 +261,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | Ambiente                    | Plataforma        | Link de Acesso                |
 | --------------------------- | ----------------- | ----------------------------- |
 | Processo de Design Thinkgin | Miro              | https://miro.com	          |
-| Repositório de código       | GitHub            | encurtador.com.br/clvHP       |
+| Repositório de código       | GitHub            | <encurtador.com.br/clvHP>     |
 | Hospedagem do site          | Replit            | https://replit.com/		  |
 | Protótipo Interativo        | Figma             | https://figma.com/XXXXXXX     |
 | Editor de código            | Vs code           | https://code.visualstudio.com/|
-| Ferramenta de comunicação   | WhatsApp          | encurtador.com.br/lpsS1       |
-| Ferramenta de comunicação   | Microsoft Teams   | encurtador.com.br/vKN79       |
+| Ferramenta de comunicação   | WhatsApp          | <encurtador.com.br/lpsS1>     |
+| Ferramenta de comunicação   | Microsoft Teams   | <encurtador.com.br/vKN79>     |
 
 
 > As ferramentas empregadas no projeto são:
