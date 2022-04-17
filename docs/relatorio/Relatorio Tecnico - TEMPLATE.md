@@ -280,10 +280,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 > As ferramentas empregadas no projeto são:
 > - Visual studio code.
-> - Whatsaap.
+> - WhatsApp.
 > - Figma.
 > - Replit.
 > - Microsoft Teams
+> - GitHub
 
 > O editor de código foi escolhido porque ele possui uma integração com o
 > sistema de versão. As ferramentas de comunicação utilizadas possuem
