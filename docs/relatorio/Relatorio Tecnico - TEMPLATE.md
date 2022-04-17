@@ -2,7 +2,7 @@
 
 `TÍTULO DO PROJETO`
 
-...... COLOQUE AQUI O SEU TEXTO ......
+Informações sobre bares e restaurantes dentro e ao redor da PUC.
 
 `CURSO`
 
