@@ -199,7 +199,7 @@ mais prática.
 As telas de log in, cadastro para lojas e cadastro para consumidores possuem poucos elementos para
 simplificar e tornar esse processo mais agradável aos usuários.
 
-O protótipo interativo no Figma pode acessado no link abaixo:
+O protótipo interativo no Figma pode acessado no link:
 https://www.figma.com/proto/9usSICVL1KvVK5G0IHVH3I/O-que-tem%3F---PUC-Coreu?node-id=0%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=0%3A2
 
 ## User Flow
