@@ -170,51 +170,35 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-...... COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+O objetivo do site é oferecer aos alunos e funcinários da PUC Coração Eucarístico um acesso
+fácil às informações sobre os restaurantes, bares e lanchonetes dentro e próximos à universidade.
+Pensando nisso e no fato de que essas pessoas usariam o site principalmente pelo celular enquanto
+se movimentam pelo campus, o projeto de interface foi feito com foco inicial no uso do site em 
+aparelhos móveis, pois a interface no mobile é a que será mais utilizada.
+Um site fácil de ser usado no celular também é importante para as lojas que o utilizem, pois serão
+capazes de fazer seu cadastro, login e editar suas informações e produtos de forma prática e sem a
+necessidade de um computador ou notebook.
 
-> Apresente as principais interfaces da solução. Discuta como
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+A interface do site começa em uma tela inicial que permite o usuário fazer seu cadastro, entrar em
+sua conta ou ir diretamente para a tela principal onde pode ver ou pesquisar informações sobre os
+estabelecimentos e produtos.
+A tela principal possui uma barra de pesquisa, uma área para novas ofertas e uma lista dos
+estabelecimentos cadastrados com seu nome e palavras-chave sobre si. Também conta com um fácil
+filtro para estabelecimentos dentro ou perto da universidade, para tornar a experiência do usuário
+mais prática.
+As telas de log in, cadastro para lojas e cadastro para consumidores possuem poucos elementos para
+simplificar e tornar esse processo mais agradável aos usuários.
 
 ## User Flow
 
-...... INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
-
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
->
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
->
-> ![Exemplo de UserFlow](images/userflow.jpg)
+![UserFlow](https://user-images.githubusercontent.com/103282849/163723764-eff68413-a768-425e-b637-3436d77ae621.png)
 
 ## Wireframes
 
-...... INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+Aqui são mostradas os wireframes das principais telas do site.
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
->
-> **Links Úteis**:
->
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
->
-> **Exemplo**:
->
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+![wireframes](https://user-images.githubusercontent.com/103282849/163724013-e6344c2f-5f98-4d84-af2b-0287d9f3c2d6.png)
+
 
 # Metodologia
 > O método "Design Thinking" foi utilizado na fase de concepção do projeto. 
@@ -236,10 +220,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 | Ambiente                    | Plataforma        | Link de Acesso                	|
 | --------------------------- | ----------------- | ----------------------------- 	|
-| Processo de Design Thinkgin | Miro              | https://miro.com	          	|
+| Processo de Design Thinkgin | Miro              | https://miro.com/app/board/uXjVOB3aPNI=/          	|
 | Repositório de código       | GitHub            |[GitHub](encurtador.com.br/clvHP>)	|
 | Hospedagem do site          | Replit            | https://replit.com/		  	|
-| Protótipo Interativo        | Figma             | https://figma.com/XXXXXXX     	|
+| Protótipo Interativo        | Figma             | https://www.figma.com/file/9usSICVL1KvVK5G0IHVH3I/O-que-tem%3F---PUC-Coreu?node-id=0%3A1    	|
 | Editor de código            | Vs code           | https://code.visualstudio.com/	|
 | Ferramenta de comunicação   | WhatsApp          |[whatsApp](encurtador.com.br/lpsS1)	|
 | Ferramenta de comunicação   | Microsoft Teams   | [Teams](encurtador.com.br/vKN79)  	|
