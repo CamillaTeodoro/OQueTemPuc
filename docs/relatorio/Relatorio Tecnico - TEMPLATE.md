@@ -94,11 +94,18 @@ Ciência da Computação
 ## Personas e Mapas de Empatia
 
 ...... COLOQUE AQUI O SEU TEXTO ......
->
+>## Primeira persona e mapa de empatia
+>  
 > ![Primeira persona](imaages/../images/Persona1.png)
 > ![Primeiro mapa de empatia](imaages/../images/MapaEmpatia1.jpg)
+>## Segunda persona e mapa de empatia
+>  
 > ![Segunda persona](imaages/../images/Persona2.png)
 > ![Segundo mapa de empatia](imaages/../images/MapaEmpatia2.jpg)
+>## Terceira persona e mapa de empatia
+>  
+> ![Segunda persona](imaages/../images/Persona3.png)
+> ![Segundo mapa de empatia](imaages/../images/MapaEmpatia3.jpg)
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que
 > você deve ser enumerar e descrever precisamente e de forma
 > personalizada todos os principais envolvidos com a solução almeja.
