@@ -3,7 +3,7 @@
 .initial-screen {
   background-image: url("img/pucentrada1.jpg");
   background-color: #cccccc;
-  background-position: center top;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
