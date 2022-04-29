@@ -237,15 +237,15 @@ Aqui são mostradas os wireframes das principais telas do site.
 
 ## Ferramentas
 
-| Ambiente                    | Plataforma      | Link de Acesso                                                                           |
-| --------------------------- | --------------- | ---------------------------------------------------------------------------------------- |
-| Processo de Design Thinkgin | Miro            | https://miro.com/app/board/uXjVOB3aPNI=/                                                 |
-| Repositório de código       | GitHub          | [GitHub](encurtador.com.br/clvHP>)                                                       |
-| Hospedagem do site          | Replit          | https://replit.com/                                                                      |
+| Ambiente                    | Plataforma      | Link de Acesso                                                                                                                                          |
+| --------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Processo de Design Thinkgin | Miro            | https://miro.com/app/board/uXjVOB3aPNI=/                                                                                                                |
+| Repositório de código       | GitHub          | [GitHub](encurtador.com.br/clvHP>)                                                                                                                      |
+| Hospedagem do site          | Replit          | https://replit.com/                                                                                                                                     |
 | Protótipo Interativo        | Figma           | https://www.figma.com/proto/9usSICVL1KvVK5G0IHVH3I/O-que-tem%3F---PUC-Coreu?node-id=0%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=0%3A2 |
-| Editor de código            | Vs code         | https://code.visualstudio.com/                                                           |
-| Ferramenta de comunicação   | WhatsApp        | [whatsApp](encurtador.com.br/lpsS1)                                                      |
-| Ferramenta de comunicação   | Microsoft Teams | [Teams](encurtador.com.br/vKN79)                                                         |
+| Editor de código            | Vs code         | https://code.visualstudio.com/                                                                                                                          |
+| Ferramenta de comunicação   | WhatsApp        | [whatsApp](encurtador.com.br/lpsS1)                                                                                                                     |
+| Ferramenta de comunicação   | Microsoft Teams | [Teams](encurtador.com.br/vKN79)                                                                                                                        |
 
 > As ferramentas empregadas no projeto são:
 >
