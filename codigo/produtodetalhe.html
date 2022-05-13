@@ -19,78 +19,82 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col d-flex justify-content-start">
-          <a
-            href="cadastroproduto.html"
-            title="Cadastro de Produto"
-            onclick="event.preventDefault(); history.back()"
+      <header>
+        <div class="row">
+          <div class="col d-flex justify-content-start">
+            <a
+              href="cadastroproduto.html"
+              title="Cadastro de Produto"
+              onclick="event.preventDefault(); history.back()"
+            >
+              <i
+                class="bi bi-arrow-left-square-fill m-3"
+                style="font-size: 2rem; color: #000c76"
+              ></i
+            ></a>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div
+            class="col-6 p-1 d-flex justify-content-center text-center align-items-center"
           >
-            <i
-              class="bi bi-arrow-left-square-fill m-3"
-              style="font-size: 2rem; color: #000c76"
-            ></i
-          ></a>
-        </div>
-      </div>
-      <div class="row mt-3">
-        <div
-          class="col-6 p-1 d-flex justify-content-center text-center align-items-center"
-        >
-          <h1>Cadastrar Produtos</h1>
-        </div>
-        <div class="col-6 d-flex justify-content-end">
-          <img src="img/restaurant 1.svg" alt="um garfo e uma colher" />
+            <h1>Cadastrar Produtos</h1>
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+            <img src="img/restaurant 1.svg" alt="um garfo e uma colher" />
 
-          <img src="img/Oquetem_ PUCCoreu.svg" alt="logo do site" />
+            <img src="img/Oquetem_ PUCCoreu.svg" alt="logo do site" />
+          </div>
         </div>
-      </div>
+      </header>
 
-      <form class="mt-3">
-        <div class="mb-3">
-          <label for="ProductName" class="form-label">Nome do Produto</label>
-          <input
-            type="text"
-            class="form-control"
-            id="ProductName"
-            placeholder="Digite o nome do produto"
-          />
-        </div>
-        <div class="mb-3">
-          <label for="ProductPrice" class="form-label">Preço</label>
-          <input
-            type="text"
-            class="form-control"
-            id="fProductName"
-            placeholder="R$"
-          />
-        </div>
-        <div class="mb-3">
-          <label for="ProductDescription" class="form-label"
-            >Descrição do Produto</label
-          >
-          <textarea
-            class="form-control"
-            id="FormControlTextarea1"
-            rows="3"
-          ></textarea>
-        </div>
-        <div class="mb-3">
-          <label for="ProductImage" class="form-label"
-            >URL para imagem do Produto</label
-          >
-          <input
-            type="text"
-            class="form-control"
-            id="ProductImage"
-            placeholder="Digite a URL para carregar a imagem"
-          />
-        </div>
+      <main>
+        <form class="mt-3">
+          <div class="mb-3">
+            <label for="ProductName" class="form-label">Nome do Produto</label>
+            <input
+              type="text"
+              class="form-control"
+              id="ProductName"
+              placeholder="Digite o nome do produto"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="ProductPrice" class="form-label">Preço</label>
+            <input
+              type="text"
+              class="form-control"
+              id="fProductName"
+              placeholder="R$"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="ProductDescription" class="form-label"
+              >Descrição do Produto</label
+            >
+            <textarea
+              class="form-control"
+              id="FormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="ProductImage" class="form-label"
+              >URL para imagem do Produto</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="ProductImage"
+              placeholder="Digite a URL para carregar a imagem"
+            />
+          </div>
 
-        <button type="submit" class="btn btn-primary bk-color-blue mt-5">
-          SALVAR
-        </button>
-      </form>
+          <button type="submit" class="btn btn-primary bk-color-blue mt-5">
+            SALVAR
+          </button>
+        </form>
+      </main>
     </div>
 
     <script
