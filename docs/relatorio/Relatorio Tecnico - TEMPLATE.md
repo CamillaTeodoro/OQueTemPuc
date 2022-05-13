@@ -57,63 +57,73 @@ Ciência da Computação
 # Introdução
 
 ## Problema
-> Aproximadamente 60% dos alunos da PUC desconhecem os serviço e produtos oferecidos na região, 
-> como alimentos, preços, promoções e atrações. 
+
+> Aproximadamente 60% dos alunos da PUC desconhecem os serviço e produtos oferecidos na região,
+> como alimentos, preços, promoções e atrações.
 > Consequentemente isso diminui o potencial de compra e satisfação do cliente.
->  
+>
 > Em pesquisas de opinião, foi identificado que isso ocorre devido a determinadas situações, como:
-> * Falta de tempo.
-> * praticidade de ir onde já conhecem .
-> * Preconceito em relação ao preço.
+>
+> - Falta de tempo.
+> - praticidade de ir onde já conhecem .
+> - Preconceito em relação ao preço.
 
 ## Objetivos
-> O principal objetivo deste projeto é criar um site para que os alunos acessem e obtenham facilmente 
+
+> O principal objetivo deste projeto é criar um site para que os alunos acessem e obtenham facilmente
 > informações sobre estabelecimentos próximas à PUC.
->   
+>
 > No entanto, este projeto também visa:
-> * Melhorar o fluxo de clientes nos estabelecimentos. 
-> * Aumentar o consumo na região.
-> * Melhorar o relacionamento entre o cliente e a empresa.
+>
+> - Melhorar o fluxo de clientes nos estabelecimentos.
+> - Aumentar o consumo na região.
+> - Melhorar o relacionamento entre o cliente e a empresa.
+
 ## Justificativa
-> A motivação para a realização deste projeto deve-se ao fato de que grande parte dos alunos 
-> afirmaram não conhecer a maioria dos produtos e serviços oferecidos na região. Por meio das pesquisas de opinião, 
-> identificou-se que um dos principais fatores na ocorrência desse problema é o pré-conceito em relação ao preço do produto, 
+
+> A motivação para a realização deste projeto deve-se ao fato de que grande parte dos alunos
+> afirmaram não conhecer a maioria dos produtos e serviços oferecidos na região. Por meio das pesquisas de opinião,
+> identificou-se que um dos principais fatores na ocorrência desse problema é o pré-conceito em relação ao preço do produto,
 > pois aproximadamente 60% dos entrevistados alegaram não entrar em novos estabelecimentos
 > por receio do valor, diante desse cenário é imprescindível a criação de um site no
 > qual os alunos possam se informar de maneira rápida e fácil sem nenhum constrangimento.
+
 ## Público-Alvo
-> O público-alvo é composto principalmente por alunos da PUC e pessoas que normalmente Consomem na região.
+
+> O público-alvo é composto principalmente por alunos da PUC e pessoas que normalmente consomem na região.
+
 # Especificações do Projeto
 
-...... COLOQUE AQUI O SEU TEXTO ......
+Para podermos definir quem eram as personas que usariam nosso aplicativo, realizamos uma pesquisa presencial com 45 alunos da PUC do Coração Eucaristico. Conversamos com alunos de diversos cursos e periodos para podermos entender quais eram suas necessidades em se tratando de consumo de alimentos dentro e fora da universidade.
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+Conversamos também com proprietários de 10 estabelecimentos dentro e fora da PUC.
+
+E foi com base nessa necessidade levantada que os requisitos funcionais do projeto foram definidos, de forma a construirmos um aplicativo de fácil e rápido uso.
+
 ## Personas e Mapas de Empatia
->1. Primeira persona e mapa de empatia
->  
-> ![Primeira persona](imaages/../images/Persona1.png)
-> ![Primeiro mapa de empatia](imaages/../images/MapaEmpatia1.jpg)
->  
->2. Segunda persona e mapa de empatia
->  
-> ![Segunda persona](imaages/../images/Persona2.png)
-> ![Segundo mapa de empatia](imaages/../images/MapaEmpatia2.jpg)
->  
->3. Terceira persona e mapa de empatia
->  
-> ![Segunda persona](imaages/../images/Persona3.png)
-> ![Segundo mapa de empatia](imaages/../images/MapaEmpatia3.jpg)
+
+> 1.  Primeira persona e mapa de empatia
+>
+> ![Primeira persona](imaages/../images/Persona1.png) > ![Primeiro mapa de empatia](imaages/../images/MapaEmpatia1.jpg)
+>
+> 2.  Segunda persona e mapa de empatia
+>
+> ![Segunda persona](imaages/../images/Persona2.png) > ![Segundo mapa de empatia](imaages/../images/MapaEmpatia2.jpg)
+>
+> 3.  Terceira persona e mapa de empatia
+>
+> ![Segunda persona](imaages/../images/Persona3.png) > ![Segundo mapa de empatia](imaages/../images/MapaEmpatia3.jpg)
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-| EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE`         | PARA ... `MOTIVO/VALOR`                |
-| -------------------- | ----------------------------------         | -------------------------------------- |
-| Lucas   	       | Praticidade em achar comércios que fiquem perto do prédio que estudo na universidade | Não gastar muito tempo procurando saber onde eu posso economizar mais               |
-| Luiza        | Descobrir comércios que fiquem perto do prédio que estudo na universidade                         | Saber onde eu posso economizar mais e consumir produtos segundo meu gosto pessoal |
-| Lúcio| Divulgar meu negócio| Deixá-lo visível e atrativo para todos os estudantes da PUC e, assim, conseguir novos clientes|
+| EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE`                                                   | PARA ... `MOTIVO/VALOR`                                                                        |
+| -------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
+| Lucas                | Praticidade em achar comércios que fiquem perto do prédio que estudo na universidade | Não gastar muito tempo procurando saber onde eu posso economizar mais                          |
+| Luiza                | Descobrir comércios que fiquem perto do prédio que estudo na universidade            | Saber onde eu posso economizar mais e consumir produtos segundo meu gosto pessoal              |
+| Lúcio                | Divulgar meu negócio                                                                 | Deixá-lo visível e atrativo para todos os estudantes da PUC e, assim, conseguir novos clientes |
+
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
@@ -173,7 +183,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 O objetivo do site é oferecer aos alunos e funcinários da PUC Coração Eucarístico um acesso
 fácil às informações sobre os restaurantes, bares e lanchonetes dentro e próximos à universidade.
 Pensando nisso e no fato de que essas pessoas usariam o site principalmente pelo celular enquanto
-se movimentam pelo campus, o projeto de interface foi feito com foco inicial no uso do site em 
+se movimentam pelo campus, o projeto de interface foi feito com foco inicial no uso do site em
 aparelhos móveis, pois a interface no mobile é a que será mais utilizada.
 Um site fácil de ser usado no celular também é importante para as lojas que o utilizem, pois serão
 capazes de fazer seu cadastro, login e editar suas informações e produtos de forma prática e sem a
@@ -189,6 +199,9 @@ mais prática.
 As telas de log in, cadastro para lojas e cadastro para consumidores possuem poucos elementos para
 simplificar e tornar esse processo mais agradável aos usuários.
 
+O protótipo interativo no Figma pode acessado no link:
+https://www.figma.com/proto/9usSICVL1KvVK5G0IHVH3I/O-que-tem%3F---PUC-Coreu?node-id=0%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=0%3A2
+
 ## User Flow
 
 ![UserFlow](https://user-images.githubusercontent.com/103282849/163723764-eff68413-a768-425e-b637-3436d77ae621.png)
@@ -199,37 +212,43 @@ Aqui são mostradas os wireframes das principais telas do site.
 
 ![wireframes](https://user-images.githubusercontent.com/103282849/163724013-e6344c2f-5f98-4d84-af2b-0287d9f3c2d6.png)
 
-
 # Metodologia
-> O método "Design Thinking" foi utilizado na fase de concepção do projeto. 
+
+> O método "Design Thinking" foi utilizado na fase de concepção do projeto.
 > Já na fase de desenvolvimento, a forma de gerenciamento escolhida pela equipe foi o Scrumban.
+
 ## Divisão de Papéis
 
 > ### Scrum Master
-> * Rommel Vieira Carneiro
+>
+> - Rommel Vieira Carneiro
+>
 > ### Product Owner
-> * Julio Cesar Dillinger Conway
+>
+> - Julio Cesar Dillinger Conway
+>
 > ### Equipe de Desenvolvimento
-> * Helena Ferreira Fernandes
-> * Matheus Pimentel Kansaon
-> * Olga Camilla Silva Teodoro
-> * Saulo Braga Silveira
-> * Vinicius Augusto Alves Santos Mello
+>
+> - Helena Ferreira Fernandes
+> - Matheus Pimentel Kansaon
+> - Olga Camilla Silva Teodoro
+> - Saulo Braga Silveira
+> - Vinicius Augusto Alves Santos Mello
 
 ## Ferramentas
 
-| Ambiente                    | Plataforma        | Link de Acesso                	|
-| --------------------------- | ----------------- | ----------------------------- 	|
-| Processo de Design Thinkgin | Miro              | https://miro.com/app/board/uXjVOB3aPNI=/          	|
-| Repositório de código       | GitHub            |[GitHub](encurtador.com.br/clvHP>)	|
-| Hospedagem do site          | Replit            | https://replit.com/		  	|
-| Protótipo Interativo        | Figma             | https://www.figma.com/file/9usSICVL1KvVK5G0IHVH3I/O-que-tem%3F---PUC-Coreu?node-id=0%3A1    	|
-| Editor de código            | Vs code           | https://code.visualstudio.com/	|
-| Ferramenta de comunicação   | WhatsApp          |[whatsApp](encurtador.com.br/lpsS1)	|
-| Ferramenta de comunicação   | Microsoft Teams   | [Teams](encurtador.com.br/vKN79)  	|
-
+| Ambiente                    | Plataforma      | Link de Acesso                                                                                                                                          |
+| --------------------------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Processo de Design Thinkgin | Miro            | https://miro.com/app/board/uXjVOB3aPNI=/                                                                                                                |
+| Repositório de código       | GitHub          | [GitHub](encurtador.com.br/clvHP>)                                                                                                                      |
+| Hospedagem do site          | Replit          | https://replit.com/                                                                                                                                     |
+| Protótipo Interativo        | Figma           | https://www.figma.com/proto/9usSICVL1KvVK5G0IHVH3I/O-que-tem%3F---PUC-Coreu?node-id=0%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=0%3A2 |
+| Editor de código            | Vs code         | https://code.visualstudio.com/                                                                                                                          |
+| Ferramenta de comunicação   | WhatsApp        | [whatsApp](encurtador.com.br/lpsS1)                                                                                                                     |
+| Ferramenta de comunicação   | Microsoft Teams | [Teams](encurtador.com.br/vKN79)                                                                                                                        |
 
 > As ferramentas empregadas no projeto são:
+>
 > - Visual studio code.
 > - WhatsApp.
 > - Figma.
@@ -257,11 +276,11 @@ Aqui são mostradas os wireframes das principais telas do site.
 > - `dev`: versão de desenvolvimento do software
 >
 > Quanto à gerência de commits cada desenvolvedor tem a sua autononomia, porém deve-se respeitar
-> o propósito de cada branch. 
+> o propósito de cada branch.
 >
-> Os merges são utilizados para a unificação, sendo executado somente após a finalização dos testes, também 
+> Os merges são utilizados para a unificação, sendo executado somente após a finalização dos testes, também
 > por medida de segurança ao efetuar um merge é realizado o pull requests para averiguação das mundanças.
-> Em relação as tags 
+> Em relação as tags
 > ou issues a equipe optou por não utilizar neste primeiro momento.
 
 # **############## SPRINT 1 ACABA AQUI #############**
