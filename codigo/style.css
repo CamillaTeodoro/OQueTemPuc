@@ -27,3 +27,19 @@
   font-size: 13px;
   min-height: 50px;
 }
+
+.bk-color-blue-sm {
+  background-color: #000c76;
+  border: solid 1px #000c76;
+  font-size: 11px;
+  border-radius: 8px;
+  min-width: 100px;
+  min-height: 40px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 18px;
+  color: #000c76;
+  font-weight: 600;
+}
