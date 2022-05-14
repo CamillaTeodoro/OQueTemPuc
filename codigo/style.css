@@ -58,7 +58,7 @@ a.navbar-link {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 19px;
   margin-bottom: 10px;
   font-weight: 600;
 }
@@ -66,12 +66,12 @@ h2 {
 .side-by-side {
   width: 300px;
   min-width: 250px;
-  margin: 8px;
+  margin: 5px;
 }
 
 .container-side-by-side {
   width: auto;
-  height: 550px;
+  height: 450px;
   overflow-x: scroll;
   overflow-y: hidden;
   display: flex;
@@ -80,5 +80,5 @@ h2 {
 .card-img,
 .card-img-bottom,
 .card-img-top {
-  max-height: 240px;
+  height: 240px;
 }
