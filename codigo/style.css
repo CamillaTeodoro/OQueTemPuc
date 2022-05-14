@@ -43,3 +43,16 @@ h2 {
   color: #000c76;
   font-weight: 600;
 }
+
+a {
+  text-decoration: none;
+  color: #000c76;
+  margin-top: 10px;
+}
+
+a.navbar-link {
+  margin-right: 15px;
+  display: flex;
+  justify-content: end;
+  font-weight: 600;
+}
