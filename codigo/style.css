@@ -38,8 +38,47 @@
   font-weight: 600;
 }
 
-h2 {
+h3 {
   font-size: 18px;
   color: #000c76;
   font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #000c76;
+  margin-top: 10px;
+}
+
+a.navbar-link {
+  margin-right: 15px;
+  display: flex;
+  justify-content: end;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 19px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.side-by-side {
+  width: 300px;
+  min-width: 250px;
+  margin: 5px;
+}
+
+.container-side-by-side {
+  width: auto;
+  height: 450px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  height: 240px;
 }
