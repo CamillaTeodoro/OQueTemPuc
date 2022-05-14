@@ -38,7 +38,7 @@
   font-weight: 600;
 }
 
-h2 {
+h3 {
   font-size: 18px;
   color: #000c76;
   font-weight: 600;
@@ -54,5 +54,11 @@ a.navbar-link {
   margin-right: 15px;
   display: flex;
   justify-content: end;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
   font-weight: 600;
 }
