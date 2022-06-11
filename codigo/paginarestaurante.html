@@ -100,11 +100,12 @@
               class="bi bi-geo-alt"
               style="font-size: 1.5rem; color: #000c76"
             ></i>
-            <a href="#" class="link-cadastro">
-              Rua Dom José Gaspar, 713 - Coração Eucarístico</a
+            <a href="#" id="maps" class="link-cadastro mb-3">
+              Rua Dom José Gaspar, 713 - Coração Eucarístico - Belo Horizonte</a
             >
           </div>
         </div>
+        <div id="map" style="min-height: 250px"></div>
         <div class="row bg-light mb-3 mt-3">
           <div class="col-12 mt-3">
             <h2 class="mb-3">Produtos</h2>
@@ -168,5 +169,9 @@
       crossorigin="anonymous"
     ></script>
     <script src="maps.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&region=BR&language=pt_BR&callback=initMap&v=weekly"
+      defer
+    ></script>
   </body>
 </html>
