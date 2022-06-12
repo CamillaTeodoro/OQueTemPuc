@@ -30,6 +30,7 @@ function initMap() {
   }
   geocode(location).then(function (response) {
     // Localização do restaurante
+    console.log(response);
     const restaurante = response.results[0].geometry.location;
     // The map, centered at restaurante
     const map = new google.maps.Map(document.getElementById("map"), {
