@@ -85,6 +85,10 @@ function createObject(email, password, name, address1, address2, beginHour,
     return object;
 }
 
+function checkdField(name, address1){
+    return(address1 != "" && name != "");    
+}
+
 function pushData(){
     let data = readData();
     
@@ -93,26 +97,28 @@ function pushData(){
     let name = document.getElementById('inputname').value; 
     let address1 = document.getElementById('inputAddress').value;
     let address2 = document.getElementById('inputAddress2').value;
-    
-    let beginHour = document.getElementById('inicioFuncionamento').value;
-    let endingHour = document.getElementById('FinalFuncionamento').value;
-    
-    /*Information about the location input radio*/     
-    let ioLocation = [];
-    ioLocation = checkedLocation();
+    if(checkdField(name, address1)){
+        let beginHour = document.getElementById('inicioFuncionamento').value;
+        let endingHour = document.getElementById('FinalFuncionamento').value;
+        
+        /*Information about the location input radio*/     
+        let ioLocation = [];
+        ioLocation = checkedLocation();
 
-    /* Open Days*/
-    let weekdays = document.querySelectorAll(".weekDays");
-    let arrayOpenDays = []; 
-    checkedDays(arrayOpenDays, weekdays);
+        /* Open Days*/
+        let weekdays = document.querySelectorAll(".weekDays");
+        let arrayOpenDays = []; 
+        checkedDays(arrayOpenDays, weekdays);
 
-    // create Object and save in localStorage 
-    let objectRestaurant = createObject(email, password, name, address1, address2, beginHour, endingHour, ioLocation, arrayOpenDays);
-    data.restaurant.push(objectRestaurant);
-    saveData(data);
-    
-    // reset form
-    document.querySelector("#form_restaurante").reset();
+        // create Object and save in localStorage 
+        let objectRestaurant = createObject(email, password, name, address1, address2, beginHour, endingHour, ioLocation, arrayOpenDays);
+        data.restaurant.push(objectRestaurant);
+        saveData(data);
+        
+        // reset form
+        document.querySelector("#form_restaurante").reset();
+        window.location.href = 'cadastroproduto.html';
+    }else{alert("Por favor preencha ao menos o campo NOME e ENDEREÇO")}
 }
 
 // config buttons

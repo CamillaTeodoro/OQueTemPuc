@@ -23,8 +23,8 @@
         <div class="row">
           <div class="col d-flex justify-content-start">
             <a
-              href="cadastro.html"
-              title="Cadastro"
+              href="index.html"
+              title="Página Inicial"
               onclick="event.preventDefault(); history.back()"
             >
               <i
@@ -34,11 +34,12 @@
             ></a>
           </div>
         </div>
+
         <div class="row mt-3">
           <div
             class="col-6 p-1 d-flex justify-content-evenly align-items-center"
           >
-            <h1>Cadastro</h1>
+            <h1>Login</h1>
           </div>
           <div class="col-6 d-flex justify-content-end">
             <img src="img/restaurant 1.svg" alt="um garfo e uma colher" />
@@ -57,7 +58,7 @@
               <input
                 type="email"
                 class="form-control"
-                id="formGroupExampleInput"
+                id="email"
                 placeholder="Entre com seu email"
               />
             </div>
@@ -68,20 +69,14 @@
               <input
                 type="password"
                 class="form-control"
-                id="formGroupExampleInput2"
+                id="password"
                 placeholder="Digite a senha"
               />
             </div>
-            <div class="mb-3">
-              <label for="formGroupExampleInput2" class="form-label"
-                >Confirme sua senha</label
+            <div class="mb-1">
+              <a href="cadastro.html" class="link-cadastro"
+                >Ainda não tem cadastro? Clique aqui.</a
               >
-              <input
-                type="password"
-                class="form-control"
-                id="formGroupExampleInput2"
-                placeholder="Digite a senha"
-              />
             </div>
           </div>
         </div>
@@ -89,10 +84,11 @@
         <div class="row mt-4">
           <div class="col-12 d-flex justify-content-center align-items-center">
             <a
-              class="btn btn-primary bk-color-blue d-flex justify-content-center align-items-center"
-              href="#"
+              id="button"
+              class="btn btn-primary bk-color-blue d-flex justify-content-evenly align-items-center"
+              href="cadastrofornecedor2.html"
               role="button"
-              >ENVIAR</a
+              >ENTRAR</a
             >
           </div>
         </div>
@@ -104,5 +100,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="login.js"></script>
   </body>
 </html>
