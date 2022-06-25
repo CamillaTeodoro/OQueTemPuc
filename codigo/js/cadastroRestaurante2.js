@@ -1,56 +1,4 @@
-function readData(){
-    let strData = localStorage.getItem('db');
-    let objData = {};
-
-    if(strData){
-        objData = JSON.parse(strData);
-    }else{
-        objData = { 
-            restaurant: [
-                            {
-                                'email': 'restauranteNova_praca@novapraca.com',
-                                'senha': '123',
-                                'name': 'Restaurante nova praça',
-                                'address1': 'Rua Olinda, n: 140º',
-                                'address2': '',
-                                'beginHour': '8Am',
-                                'endingHour': '10Pm',
-                                'ioLocation': [true,false],
-                                OpenDays: [false, true, true, true, true, false, false] 
-                            },
-                            {
-                                'email': 'marioBar@novapraca.com',
-                                'senha': '123',
-                                'name': 'Bar do mario',
-                                'address1': 'Ao lado do prédio 34',
-                                'address2': '',
-                                'beginHour': '8Am',
-                                'endingHour': '10Pm',
-                                'ioLocation': [true,false],
-                                OpenDays: [false, true, true, true, true, false, false] 
-                            },
-                            {
-                                'email': 'comidaDoce@novapraca.com',
-                                'senha': '123',
-                                'name': 'Restaurante comida doce',
-                                'address1': 'Rua teixeira dias',
-                                'address2': '',
-                                'beginHour': '8Am',
-                                'endingHour': '10Pm',
-                                'ioLocation': [true,false],
-                                OpenDays: [false, true, true, true, true, false, false] 
-                            }
-                        ]
-        };
-    }
-    saveData(objData);
-    return objData;
-}
-
-function saveData(data){
-    localStorage.setItem('db', JSON.stringify(data));
-}
-
+const LOGIN_URL = "login.html";
 
 function checkedLocation(){
     array = [2];
@@ -68,10 +16,27 @@ function checkedDays(array, weekDays){
     return array;
 }
 
+function generateUUID() { // Public Domain/MIT
+    var d = new Date().getTime();//Timestamp
+    var d2 = (performance && performance.now && (performance.now()*1000)) || 0;//Time in microseconds since page-load or 0 if unsupported
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        var r = Math.random() * 16;//random number between 0 and 16
+        if(d > 0){//Use timestamp until depleted
+            r = (d + r)%16 | 0;
+            d = Math.floor(d/16);
+        } else {//Use microseconds since page-load if supported
+            r = (d2 + r)%16 | 0;
+            d2 = Math.floor(d2/16);
+        }
+        return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+    });
+}
+
 function createObject(email, password, name, address1, address2, beginHour,
                         endingHour, ioLocation, arrayOpenDays){
     let object = 
     {   
+        'id': generateUUID(),
         'email': email,
         'password': password,
         'name': name,
@@ -85,42 +50,35 @@ function createObject(email, password, name, address1, address2, beginHour,
     return object;
 }
 
-function checkdField(name, address1){
-    return(address1 != "" && name != "");    
-}
-
 function pushData(){
-    let data = readData();
-    
+    let data = readData();   
     let email = sessionStorage.getItem('email');
     let password = sessionStorage.getItem('password');
     let name = document.getElementById('inputname').value; 
     let address1 = document.getElementById('inputAddress').value;
     let address2 = document.getElementById('inputAddress2').value;
-    if(checkdField(name, address1)){
-        let beginHour = document.getElementById('inicioFuncionamento').value;
-        let endingHour = document.getElementById('FinalFuncionamento').value;
-        
-        /*Information about the location input radio*/     
-        let ioLocation = [];
-        ioLocation = checkedLocation();
+    
+    let beginHour = document.getElementById('inicioFuncionamento').value;
+    let endingHour = document.getElementById('FinalFuncionamento').value;
+    
+    /*Information about the location input radio*/     
+    let ioLocation = [];
+    ioLocation = checkedLocation();
 
-        /* Open Days*/
-        let weekdays = document.querySelectorAll(".weekDays");
-        let arrayOpenDays = []; 
-        checkedDays(arrayOpenDays, weekdays);
+    /* Open Days*/
+    let weekdays = document.querySelectorAll(".weekDays");
+    let arrayOpenDays = []; 
+    checkedDays(arrayOpenDays, weekdays);
 
-        // create Object and save in localStorage 
-        let objectRestaurant = createObject(email, password, name, address1, address2, beginHour, endingHour, ioLocation, arrayOpenDays);
-        data.restaurant.push(objectRestaurant);
-        saveData(data);
-        
-        // reset form
-        document.querySelector("#form_restaurante").reset();
-        window.location.href = 'cadastroproduto.html';
-    }else{alert("Por favor preencha ao menos o campo NOME e ENDEREÇO")}
+    // create Object and save in localStorage 
+    let objectRestaurant = createObject(email, password, name, address1, address2, beginHour, endingHour, ioLocation, arrayOpenDays);
+    data.restaurant.push(objectRestaurant);
+    saveData_1(data);
+    
+    // reset form
+    document.querySelector("#form_restaurante").reset();
+    window.location.href = LOGIN_URL;
 }
 
 // config buttons
 document.getElementById('button').addEventListener('click', pushData);
-
