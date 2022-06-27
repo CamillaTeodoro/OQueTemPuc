@@ -124,7 +124,7 @@ function init() {
         console.log(`id ${id_selecionado}`);
 
         // testes
-        var url = new URL("http://127.0.0.1:5500/Cadastro%20de%20produto/Cadastro%20de%20produto/produtodetalhe.html");
+        var url = new URL("http://127.0.0.1:5500/tiaw-pmg-cc-t-20221-g6-bares-e-restaurantes/codigo/produtodetalhe.html");
         url.searchParams.append('id', id_selecionado);
         console.log(url.toString(url));
     });
@@ -132,7 +132,7 @@ function init() {
     // intercepta o click no adicionar
     $("#btnAdicionar").click(function () {
 
-        var url = new URL("http://127.0.0.1:5500/Cadastro%20de%20produto/Cadastro%20de%20produto/produtodetalhe.html");
+        var url = new URL("http://127.0.0.1:5500/tiaw-pmg-cc-t-20221-g6-bares-e-restaurantes/codigo/produtodetalhe.html");
         url.searchParams.append('id', -1);
         console.log(url.toString(url));
 
@@ -167,7 +167,7 @@ function init() {
             return;
         }
 
-        var url = new URL("http://127.0.0.1:5500/Cadastro%20de%20produto/Cadastro%20de%20produto/produtodetalhe.html");
+        var url = new URL("http://127.0.0.1:5500/tiaw-pmg-cc-t-20221-g6-bares-e-restaurantes/codigo/produtodetalhe.html");
         url.searchParams.append('id', id_selecionado);
         console.log(url.toString(url));
 
