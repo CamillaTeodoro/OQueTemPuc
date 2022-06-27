@@ -59,7 +59,7 @@ function saveData_2(data){
 }
 
 function readPeople(){
-    let strPeople = localStorage.getItem('people');
+    let strPeople = localStorage.getItem('db2');
     let object = {};
     if(strPeople){
         object = JSON.parse(strPeople)
