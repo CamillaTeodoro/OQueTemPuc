@@ -1,5 +1,5 @@
 function readData(){
-    let strData = localStorage.getItem('db');
+    let strData = localStorage.getItem('db1');
     let objData = {};
 
     if(strData){
@@ -45,8 +45,8 @@ function readData(){
                             }
                         ]
         };
+        saveData_1(objData);
     }
-    saveData_1(objData);
     return objData;
 }
 
@@ -72,8 +72,8 @@ function readPeople(){
 
                 ]
        };
+       saveData_2(object);
     }
-    saveData_2(object);
     return object;
 }
 
