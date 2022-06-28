@@ -1,5 +1,3 @@
-id = -1;
-
 // Adiciona produtos iniciais
 var produtos_inicial = {
   data: [
@@ -51,7 +49,7 @@ function exibeProdutos() {
   $("#table_produtos").html("");
 
   // Popula a tabela com os registros do banco de dados
-  for ( i = 0; i < pi.data.length; i++) {
+  for (let i = 0; i < pi.data.length; i++) {
     let produto = pi.data[i];
     $("#table_produtos").append(`<tr><td scope="row">${produto.id}</td>
                                         <td>${produto.nome}</td>
@@ -118,23 +116,19 @@ function init() {
   //intercepta o click em alguma linha da tabela e seleciona seu id
   $("#grid_produtos").on("click", "tr", function (e) {
     var linhaProduto = this;
-    colunas = linhaProduto.querySelectorAll("td");
+    let colunas = linhaProduto.querySelectorAll("td");
     id_selecionado = colunas[0].innerText;
     console.log(`id ${id_selecionado}`);
 
     // testes
-    var url = new URL(
-      "http://127.0.0.1:5500/tiaw-pmg-cc-t-20221-g6-bares-e-restaurantes/codigo/produtodetalhe.html"
-    );
+    var url = new URL("http://127.0.0.1:5500/codigo/produtodetalhe.html");
     url.searchParams.append("id", id_selecionado);
     console.log(url.toString(url));
   });
 
   // intercepta o click no adicionar
   $("#btnAdicionar").click(function () {
-    var url = new URL(
-      "http://127.0.0.1:5500/tiaw-pmg-cc-t-20221-g6-bares-e-restaurantes/codigo/produtodetalhe.html"
-    );
+    var url = new URL("http://127.0.0.1:5500/codigo/produtodetalhe.html");
     url.searchParams.append("id", -1);
     console.log(url.toString(url));
 
@@ -167,17 +161,13 @@ function init() {
       return;
     }
 
-    var url = new URL(
-      "http://127.0.0.1:5500/tiaw-pmg-cc-t-20221-g6-bares-e-restaurantes/codigo/produtodetalhe.html"
-    );
+    var url = new URL("http://127.0.0.1:5500/codigo/produtodetalhe.html");
     url.searchParams.append("id", id_selecionado);
     console.log(url.toString(url));
 
     location.href = url;
   });
 }
-
-pi.data.map((obj) => obj.id).indexOf(id);
 
 // body produtodetalhe.html onload
 function cadastrarProduto() {
