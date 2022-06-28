@@ -1,56 +1,4 @@
-function readData(){
-    let strData = localStorage.getItem('db');
-    let objData = {};
-
-    if(strData){
-        objData = JSON.parse(strData);
-    }else{
-        objData = { 
-            restaurant: [
-                            {
-                                'email': 'restauranteNova_praca@novapraca.com',
-                                'senha': '123',
-                                'name': 'Restaurante nova praça',
-                                'address1': 'Rua Olinda, n: 140º',
-                                'address2': '',
-                                'beginHour': '8Am',
-                                'endingHour': '10Pm',
-                                'ioLocation': [true,false],
-                                OpenDays: [false, true, true, true, true, false, false] 
-                            },
-                            {
-                                'email': 'marioBar@novapraca.com',
-                                'senha': '123',
-                                'name': 'Bar do mario',
-                                'address1': 'Ao lado do prédio 34',
-                                'address2': '',
-                                'beginHour': '8Am',
-                                'endingHour': '10Pm',
-                                'ioLocation': [true,false],
-                                OpenDays: [false, true, true, true, true, false, false] 
-                            },
-                            {
-                                'email': 'comidaDoce@novapraca.com',
-                                'senha': '123',
-                                'name': 'Restaurante comida doce',
-                                'address1': 'Rua teixeira dias',
-                                'address2': '',
-                                'beginHour': '8Am',
-                                'endingHour': '10Pm',
-                                'ioLocation': [true,false],
-                                OpenDays: [false, true, true, true, true, false, false] 
-                            }
-                        ]
-        };
-    }
-    saveData(objData);
-    return objData;
-}
-
-function saveData(data){
-    localStorage.setItem('db', JSON.stringify(data));
-}
-
+const LOGIN_URL = "login.html";
 
 function checkedLocation(){
     array = [2];
@@ -68,10 +16,27 @@ function checkedDays(array, weekDays){
     return array;
 }
 
+function generateUUID() { // Public Domain/MIT
+    var d = new Date().getTime();//Timestamp
+    var d2 = (performance && performance.now && (performance.now()*1000)) || 0;//Time in microseconds since page-load or 0 if unsupported
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+        var r = Math.random() * 16;//random number between 0 and 16
+        if(d > 0){//Use timestamp until depleted
+            r = (d + r)%16 | 0;
+            d = Math.floor(d/16);
+        } else {//Use microseconds since page-load if supported
+            r = (d2 + r)%16 | 0;
+            d2 = Math.floor(d2/16);
+        }
+        return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+    });
+}
+
 function createObject(email, password, name, address1, address2, beginHour,
                         endingHour, ioLocation, arrayOpenDays){
     let object = 
     {   
+        'id': generateUUID(),
         'email': email,
         'password': password,
         'name': name,
@@ -86,8 +51,7 @@ function createObject(email, password, name, address1, address2, beginHour,
 }
 
 function pushData(){
-    let data = readData();
-    
+    let data = readData();   
     let email = sessionStorage.getItem('email');
     let password = sessionStorage.getItem('password');
     let name = document.getElementById('inputname').value; 
@@ -109,10 +73,11 @@ function pushData(){
     // create Object and save in localStorage 
     let objectRestaurant = createObject(email, password, name, address1, address2, beginHour, endingHour, ioLocation, arrayOpenDays);
     data.restaurant.push(objectRestaurant);
-    saveData(data);
+    saveData_1(data);
     
     // reset form
     document.querySelector("#form_restaurante").reset();
+    window.location.href = LOGIN_URL;
 }
 
 // config buttons
