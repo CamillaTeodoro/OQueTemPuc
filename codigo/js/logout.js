@@ -6,7 +6,7 @@ function logoutUser() {
     sessionStorage.removeItem("token");
     alert("Logout efetuado com sucesso.");
 
-    // Necessário criar outro index.html
+    // REDIRECIONA PARA ESSA PAGINA APÓS LOGOUT
     window.location.href = "paginaprincipal.html";
 
     // Excluir os valores do section storage

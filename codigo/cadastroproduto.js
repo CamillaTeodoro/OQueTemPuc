@@ -285,6 +285,7 @@ function cadastrarProduto() {
       } else {
         window.alert("Produto adicionado com sucesso!");
         insertProduto(produto);
+        
         // Limpa o formulario
         $("#form_produto")[0].reset();
       }
