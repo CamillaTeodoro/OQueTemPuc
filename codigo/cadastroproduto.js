@@ -1,5 +1,5 @@
 // Adiciona produtos iniciais
-var produtos_inicial = {
+let produtos_inicial = {
   data: [
     {
       id: 1,
@@ -81,6 +81,11 @@ var pi = JSON.parse(localStorage.getItem("pi_produto"));
 if (!pi) {
   pi = produtos_inicial;
 }
+function saveData_3(data) {
+  localStorage.setItem("pi_produto", JSON.stringify(data));
+}
+
+saveData_3(pi);
 
 function deleteProduto(id) {
   // Filtra o array removendo o elemento com o id passado
@@ -94,15 +99,18 @@ function deleteProduto(id) {
 
 function exibeProdutos() {
   // Remove todas as linhas do corpo da tabela
+  let id = sessionStorage.getItem("id");
   $("#table_produtos").html("");
 
   // Popula a tabela com os registros do banco de dados
   for (let i = 0; i < pi.data.length; i++) {
     let produto = pi.data[i];
-    $("#table_produtos").append(`<tr><td scope="row">${produto.id}</td>
+    if (produto.id_rest == id) {
+      $("#table_produtos").append(`<tr><td scope="row">${produto.id}</td>
                                         <td>${produto.nome}</td>
                                         <td>R$${produto.preco}</td>
                                     </tr>`);
+    }
   }
 }
 
@@ -116,13 +124,18 @@ console.log(`TESTE`);
 function insertProduto(produto) {
   // Calcula novo Id a partir do último código existente no array (PODE GERAR ERRO SE A BASE ESTIVER VAZIA)
   let novoId = 1;
-  if (pi.data.length != 0) novoId = pi.data[pi.data.length - 1].id + 1;
+  console.log(pi.data.length);
+  if (pi.data.length != 0) {
+    novoId = pi.data[pi.data.length - 1].id + 1;
+  }
+  const id_rest = sessionStorage.getItem("id");
   let novoproduto = {
     id: novoId,
     nome: produto.nome,
     preco: produto.preco,
     descricao: produto.descricao,
     urlFoto: produto.urlFoto,
+    id_rest,
   };
 
   // Insere o novo objeto no array
@@ -176,11 +189,21 @@ function init() {
 
   // intercepta o click no adicionar
   $("#btnAdicionar").click(function () {
-    var url = new URL("http://127.0.0.1:5500/codigo/produtodetalhe.html");
-    url.searchParams.append("id", -1);
-    console.log(url.toString(url));
+    // var url = new URL("http://127.0.0.1:5500/codigo/produtodetalhe.html");
+    //url.searchParams.append("id", -1);
 
-    location.href = url;
+    /* ME */
+
+    let url = new URL("  http://127.0.0.1:5500/codigo/produtodetalhe.html");
+    url.searchParams.append("id", -1);
+    // console.log(url.toString(url));
+
+    // Adiciona Produto
+
+    window.location.href = url.toString();
+
+    // location.href = url;
+    // window.location.href = 'produtodetalhe.html'
   });
 
   // intercepta o click no botao excluir
@@ -220,7 +243,7 @@ function init() {
 // body produtodetalhe.html onload
 function cadastrarProduto() {
   const queryString = window.location.search;
-  console.log(queryString); // ?id=x
+  console.log("query: ", queryString); // ?id=x
   const urlParams = new URLSearchParams(queryString);
   const id_produto = urlParams.get("id");
   console.log(id_produto);
@@ -266,9 +289,11 @@ function cadastrarProduto() {
     $("#ProductDescription").val(pi.data[id_editar].descricao);
     $("#ProductImage").val(pi.data[id_editar].urlFoto);
     mostraImagem(id_editar);
+    console.log(pi_produto);
 
     // editProduto
     $("#btnInsert").click(function () {
+      console.log("chegou aqui");
       // Obtem os valores dos campo do formulario
       let campoNome = $("#ProductName").val();
       let campoPreco = $("#ProductPrice").val();
