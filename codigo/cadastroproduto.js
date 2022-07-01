@@ -1,3 +1,19 @@
+const nameRest = document.getElementById("name_rest");
+if (nameRest != null) {
+  const idRest = sessionStorage.getItem("id");
+  const restaurantsString = localStorage.getItem("db1");
+  if (restaurantsString != null) {
+    const restaurantsObj = JSON.parse(restaurantsString);
+    const restaurant = restaurantsObj.restaurant.find(
+      (item) => item.id === idRest
+    );
+    if (restaurant != null) {
+      nameRest.innerText = restaurant.name;
+      console.log(restaurant);
+    }
+  }
+}
+
 // Adiciona produtos iniciais
 let produtos_inicial = {
   data: [
@@ -127,14 +143,16 @@ function insertProduto(produto) {
   console.log(pi.data.length);
   if (pi.data.length != 0) {
     novoId = pi.data[pi.data.length - 1].id + 1;
-    let novoproduto = {
-      id: novoId,
-      nome: produto.nome,
-      preco: produto.preco,
-      descricao: produto.descricao,
-      urlFoto: produto.urlFoto,
-    };
   }
+  const id_rest = sessionStorage.getItem("id");
+  let novoproduto = {
+    id: novoId,
+    nome: produto.nome,
+    preco: produto.preco,
+    descricao: produto.descricao,
+    urlFoto: produto.urlFoto,
+    id_rest,
+  };
 
   // Insere o novo objeto no array
   pi.data.push(novoproduto);
@@ -180,28 +198,23 @@ function init() {
     console.log(`id ${id_selecionado}`);
 
     // testes
-    var url = new URL("http://127.0.0.1:5500/codigo/produtodetalhe.html");
-    url.searchParams.append("id", id_selecionado);
-    console.log(url.toString(url));
+    let url = `produtodetalhe.html?id=${id_selecionado}`;
+    console.log(url);
   });
 
   // intercepta o click no adicionar
   $("#btnAdicionar").click(function () {
-    // var url = new URL("http://127.0.0.1:5500/codigo/produtodetalhe.html");
+    // var url = new URL("produtodetalhe.html");
     //url.searchParams.append("id", -1);
 
     /* ME */
 
-    let url = new URL("  http://127.0.0.1:5500/codigo/produtodetalhe.html");
-    let params = new URLSearchParams(url.search);
-    params.append("id", -1);
-    console.log(params);
-
+    let url = `produtodetalhe.html?id=-1`;
     // console.log(url.toString(url));
 
     // Adiciona Produto
 
-    window.location.href = url;
+    window.location.href = url.toString();
 
     // location.href = url;
     // window.location.href = 'produtodetalhe.html'
@@ -233,9 +246,8 @@ function init() {
       return;
     }
 
-    var url = new URL("http://127.0.0.1:5500/codigo/produtodetalhe.html");
-    url.searchParams.append("id", id_selecionado);
-    console.log(url.toString(url));
+    let url = `produtodetalhe.html?id=${id_selecionado}`;
+    console.log(url);
 
     location.href = url;
   });
@@ -270,6 +282,7 @@ function cadastrarProduto() {
       } else {
         window.alert("Produto adicionado com sucesso!");
         insertProduto(produto);
+
         // Limpa o formulario
         $("#form_produto")[0].reset();
       }
@@ -294,6 +307,7 @@ function cadastrarProduto() {
 
     // editProduto
     $("#btnInsert").click(function () {
+      console.log("chegou aqui");
       // Obtem os valores dos campo do formulario
       let campoNome = $("#ProductName").val();
       let campoPreco = $("#ProductPrice").val();
