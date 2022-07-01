@@ -1,5 +1,5 @@
 // Adiciona produtos iniciais
-var produtos_inicial = {
+let produtos_inicial = {
   data: [
     {
       id: 1,
@@ -81,6 +81,11 @@ var pi = JSON.parse(localStorage.getItem("pi_produto"));
 if (!pi) {
   pi = produtos_inicial;
 }
+function saveData_3(data) {
+  localStorage.setItem("pi_produto", JSON.stringify(data));
+}
+
+saveData_3(pi);
 
 function deleteProduto(id) {
   // Filtra o array removendo o elemento com o id passado
@@ -119,14 +124,17 @@ console.log(`TESTE`);
 function insertProduto(produto) {
   // Calcula novo Id a partir do último código existente no array (PODE GERAR ERRO SE A BASE ESTIVER VAZIA)
   let novoId = 1;
-  if (pi.data.length != 0) novoId = pi.data[pi.data.length - 1].id + 1;
-  let novoproduto = {
-    id: novoId,
-    nome: produto.nome,
-    preco: produto.preco,
-    descricao: produto.descricao,
-    urlFoto: produto.urlFoto,
-  };
+  console.log(pi.data.length);
+  if (pi.data.length != 0) {
+    novoId = pi.data[pi.data.length - 1].id + 1;
+    let novoproduto = {
+      id: novoId,
+      nome: produto.nome,
+      preco: produto.preco,
+      descricao: produto.descricao,
+      urlFoto: produto.urlFoto,
+    };
+  }
 
   // Insere o novo objeto no array
   pi.data.push(novoproduto);
@@ -281,6 +289,7 @@ function cadastrarProduto() {
     $("#ProductDescription").val(pi.data[id_editar].descricao);
     $("#ProductImage").val(pi.data[id_editar].urlFoto);
     mostraImagem(id_editar);
+    console.log(pi_produto);
 
     // editProduto
     $("#btnInsert").click(function () {
