@@ -8,7 +8,7 @@ function readData(){
         objData = { 
             restaurant: [
                             {
-                                'id': generateUUID(),
+                                'id': 1,
                                 'email': 'restauranteNova_praca@novapraca.com',
                                 'password': '123',
                                 'name': 'Restaurante nova praça',
@@ -20,7 +20,7 @@ function readData(){
                                 OpenDays: [false, true, true, true, true, false, false] 
                             },
                             {
-                                'id': generateUUID(),
+                                'id': 2,
                                 'email': 'marioBar@novapraca.com',
                                 'password': '123',
                                 'name': 'Bar do mario',
@@ -32,7 +32,7 @@ function readData(){
                                 OpenDays: [false, true, true, true, true, false, false] 
                             },
                             {
-                                'id': generateUUID(),
+                                'id': 3,
                                 'email': 'comidaDoce@novapraca.com',
                                 'password': '123',
                                 'name': 'Restaurante comida doce',

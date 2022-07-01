@@ -6,6 +6,7 @@ function loginUser() {
   let email = document.querySelector("#email").value;
   let password = document.querySelector("#password").value;
 
+  let is_restaurant = false;
   for (let i = 0; i < data.people.length; i++) {
     if (data.people[i].email == email && password == data.people[i].password) {
       id = data.people[i].id;
@@ -24,6 +25,7 @@ function loginUser() {
       ) {
         id = store.restaurant[i].id;
         meet = true;
+        is_restaurant = true;
       }
     }
   }
@@ -36,8 +38,12 @@ function loginUser() {
     sessionStorage.setItem("token", token);
 
     // Necessário criar outro index.html
-    window.location.href = "paginaprincipal.html";
-
+    if(is_restaurant){
+      window.location.href = "cadastroproduto.html"
+    }else{
+      window.location.href = "paginaprincipal.html";
+    }
+    
     // Excluir os valores do section storage
   } else {
     alert("email ou senha incorreta");

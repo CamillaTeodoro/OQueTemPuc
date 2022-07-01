@@ -1,4 +1,4 @@
-const LOGIN_URL = "login.html";
+const LOGIN_URL = "cadastroproduto.html";
 
 function checkedLocation(){
     array = [2];
@@ -47,13 +47,20 @@ function createObject(email, password, name, address1, address2, beginHour,
         'ioLocation': ioLocation,
         'OpenDays': arrayOpenDays
     };
+    sessionStorage.setItem('id', object.id);
     return object;
 }
+
+function removeData(){
+    sessionStorage.removeItem('email');
+    sessionStorage.removeItem('password');
+}  
 
 function pushData(){
     let data = readData();   
     let email = sessionStorage.getItem('email');
     let password = sessionStorage.getItem('password');
+    removeData();
     let name = document.getElementById('inputname').value; 
     let address1 = document.getElementById('inputAddress').value;
     let address2 = document.getElementById('inputAddress2').value;
