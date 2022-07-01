@@ -94,15 +94,18 @@ function deleteProduto(id) {
 
 function exibeProdutos() {
   // Remove todas as linhas do corpo da tabela
+  let id = sessionStorage.getItem('id');
   $("#table_produtos").html("");
 
   // Popula a tabela com os registros do banco de dados
   for (let i = 0; i < pi.data.length; i++) {
     let produto = pi.data[i];
+    if(produto.id_rest == id){
     $("#table_produtos").append(`<tr><td scope="row">${produto.id}</td>
                                         <td>${produto.nome}</td>
                                         <td>R$${produto.preco}</td>
                                     </tr>`);
+    }
   }
 }
 
@@ -176,11 +179,28 @@ function init() {
 
   // intercepta o click no adicionar
   $("#btnAdicionar").click(function () {
-    var url = new URL("http://127.0.0.1:5500/codigo/produtodetalhe.html");
-    url.searchParams.append("id", -1);
-    console.log(url.toString(url));
+   // var url = new URL("http://127.0.0.1:5500/codigo/produtodetalhe.html");
+    //url.searchParams.append("id", -1);
+    
+    
+    /* ME */
 
-    location.href = url;
+    let url = new URL('  http://127.0.0.1:5500/tiaw-pmg-cc-t-20221-g6-bares-e-restaurantes/codigo/produtodetalhe.html');
+    let params = new URLSearchParams(url.search);
+    params.append('id', -1);
+    console.log(params);
+    
+    
+    
+    //console.log(url.toString(url));
+    
+
+
+    // Adiciona Produto
+
+      window.location.href = url;
+   // location.href = url;
+   // window.location.href = 'produtodetalhe.html'
   });
 
   // intercepta o click no botao excluir
@@ -220,7 +240,7 @@ function init() {
 // body produtodetalhe.html onload
 function cadastrarProduto() {
   const queryString = window.location.search;
-  console.log(queryString); // ?id=x
+  console.log("query: ",queryString); // ?id=x
   const urlParams = new URLSearchParams(queryString);
   const id_produto = urlParams.get("id");
   console.log(id_produto);
