@@ -127,14 +127,16 @@ function insertProduto(produto) {
   console.log(pi.data.length);
   if (pi.data.length != 0) {
     novoId = pi.data[pi.data.length - 1].id + 1;
-    let novoproduto = {
-      id: novoId,
-      nome: produto.nome,
-      preco: produto.preco,
-      descricao: produto.descricao,
-      urlFoto: produto.urlFoto,
-    };
   }
+  const id_rest = sessionStorage.getItem("id");
+  let novoproduto = {
+    id: novoId,
+    nome: produto.nome,
+    preco: produto.preco,
+    descricao: produto.descricao,
+    urlFoto: produto.urlFoto,
+    id_rest,
+  };
 
   // Insere o novo objeto no array
   pi.data.push(novoproduto);
@@ -193,15 +195,12 @@ function init() {
     /* ME */
 
     let url = new URL("  http://127.0.0.1:5500/codigo/produtodetalhe.html");
-    let params = new URLSearchParams(url.search);
-    params.append("id", -1);
-    console.log(params);
-
+    url.searchParams.append("id", -1);
     // console.log(url.toString(url));
 
     // Adiciona Produto
 
-    window.location.href = url;
+    window.location.href = url.toString();
 
     // location.href = url;
     // window.location.href = 'produtodetalhe.html'
@@ -294,6 +293,7 @@ function cadastrarProduto() {
 
     // editProduto
     $("#btnInsert").click(function () {
+      console.log("chegou aqui");
       // Obtem os valores dos campo do formulario
       let campoNome = $("#ProductName").val();
       let campoPreco = $("#ProductPrice").val();
