@@ -198,20 +198,18 @@ function init() {
     console.log(`id ${id_selecionado}`);
 
     // testes
-    var url = new URL("http://127.0.0.1:5500/codigo/produtodetalhe.html");
-    url.searchParams.append("id", id_selecionado);
-    console.log(url.toString(url));
+    let url = `produtodetalhe.html?id=${id_selecionado}`;
+    console.log(url);
   });
 
   // intercepta o click no adicionar
   $("#btnAdicionar").click(function () {
-    // var url = new URL("http://127.0.0.1:5500/codigo/produtodetalhe.html");
+    // var url = new URL("produtodetalhe.html");
     //url.searchParams.append("id", -1);
 
     /* ME */
 
-    let url = new URL("  http://127.0.0.1:5500/codigo/produtodetalhe.html");
-    url.searchParams.append("id", -1);
+    let url = `produtodetalhe.html?id=-1`;
     // console.log(url.toString(url));
 
     // Adiciona Produto
@@ -248,9 +246,8 @@ function init() {
       return;
     }
 
-    var url = new URL("http://127.0.0.1:5500/codigo/produtodetalhe.html");
-    url.searchParams.append("id", id_selecionado);
-    console.log(url.toString(url));
+    let url = `produtodetalhe.html?id=${id_selecionado}`;
+    console.log(url);
 
     location.href = url;
   });
@@ -285,6 +282,7 @@ function cadastrarProduto() {
       } else {
         window.alert("Produto adicionado com sucesso!");
         insertProduto(produto);
+
         // Limpa o formulario
         $("#form_produto")[0].reset();
       }
