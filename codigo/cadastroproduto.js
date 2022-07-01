@@ -197,11 +197,12 @@ function init() {
     params.append("id", -1);
     console.log(params);
 
-    //console.log(url.toString(url));
+    // console.log(url.toString(url));
 
     // Adiciona Produto
 
     window.location.href = url;
+
     // location.href = url;
     // window.location.href = 'produtodetalhe.html'
   });
