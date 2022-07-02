@@ -8,6 +8,7 @@ function readData(){
         objData = { 
             restaurant: [
                             {
+                                'picture': 'https://cdn.pixabay.com/photo/2019/07/10/18/59/logo-4329288_960_720.png',
                                 'id': 1,
                                 'email': 'restauranteNova_praca@novapraca.com',
                                 'password': '123',
@@ -17,9 +18,11 @@ function readData(){
                                 'beginHour': '8Am',
                                 'endingHour': '10Pm',
                                 'ioLocation': [true,false],
+                                'biography': 'Almoço sem balança, saladas, carnes, salgados.',
                                 OpenDays: [false, true, true, true, true, false, false] 
                             },
                             {
+                                'picture': 'https://cdn.pixabay.com/photo/2019/06/27/21/14/logo-4303138_960_720.png',
                                 'id': 2,
                                 'email': 'marioBar@novapraca.com',
                                 'password': '123',
@@ -29,9 +32,11 @@ function readData(){
                                 'beginHour': '8Am',
                                 'endingHour': '10Pm',
                                 'ioLocation': [true,false],
+                                'biography': 'Açaí, sorvetes, vitaminas e sucos.',
                                 OpenDays: [false, true, true, true, true, false, false] 
                             },
                             {
+                                'picture': 'https://cdn.pixabay.com/photo/2017/08/12/11/28/cocktail-2634115_960_720.jpg',
                                 'id': 3,
                                 'email': 'comidaDoce@novapraca.com',
                                 'password': '123',
@@ -41,6 +46,7 @@ function readData(){
                                 'beginHour': '8Am',
                                 'endingHour': '10Pm',
                                 'ioLocation': [true,false],
+                                'biography': 'Sanduiches naturais, sucos e salgados.',
                                 OpenDays: [false, true, true, true, true, false, false] 
                             }
                         ]
@@ -75,6 +81,15 @@ function readPeople(){
        saveData_2(object);
     }
     return object;
+}
+
+function readProduct ( ){
+    let data = localStorage.getItem('pi_produto');
+    let object = {};
+    if(data){
+        object = JSON.parse(data);
+        return object;
+    }
 }
 
 function generateUUID() { // Public Domain/MIT

@@ -1,6 +1,7 @@
+let data = readPeople();
+let store = readData();
+
 function loginUser() {
-  let data = readPeople();
-  let store = readData();
   let id = 0,
     meet = false;
   let email = document.querySelector("#email").value;

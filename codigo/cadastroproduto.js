@@ -303,7 +303,7 @@ function cadastrarProduto() {
     $("#ProductDescription").val(pi.data[id_editar].descricao);
     $("#ProductImage").val(pi.data[id_editar].urlFoto);
     mostraImagem(id_editar);
-    console.log(pi_produto);
+    //console.log(pi_produto);
 
     // editProduto
     $("#btnInsert").click(function () {

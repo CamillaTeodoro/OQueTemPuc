@@ -32,10 +32,11 @@ function generateUUID() { // Public Domain/MIT
     });
 }
 
-function createObject(email, password, name, address1, address2, beginHour,
-                        endingHour, ioLocation, arrayOpenDays){
+function createObject(picture, email, password, name, address1, address2, beginHour,
+                        endingHour, ioLocation, biography ,arrayOpenDays){
     let object = 
     {   
+        'picture': picture,
         'id': generateUUID(),
         'email': email,
         'password': password,
@@ -45,6 +46,7 @@ function createObject(email, password, name, address1, address2, beginHour,
         'beginHour': beginHour,
         'endingHour': endingHour,
         'ioLocation': ioLocation,
+        'biography': biography,
         'OpenDays': arrayOpenDays
     };
     sessionStorage.setItem('id', object.id);
@@ -68,6 +70,10 @@ function pushData(){
     let beginHour = document.getElementById('inicioFuncionamento').value;
     let endingHour = document.getElementById('FinalFuncionamento').value;
     
+    let biography = document.querySelector("#Biografia") .value;
+    
+    let url_picture = document.querySelector("#imagem_logo").value;
+
     /*Information about the location input radio*/     
     let ioLocation = [];
     ioLocation = checkedLocation();
@@ -78,7 +84,7 @@ function pushData(){
     checkedDays(arrayOpenDays, weekdays);
 
     // create Object and save in localStorage 
-    let objectRestaurant = createObject(email, password, name, address1, address2, beginHour, endingHour, ioLocation, arrayOpenDays);
+    let objectRestaurant = createObject(url_picture,email, password, name, address1, address2, beginHour, endingHour, ioLocation, biography, arrayOpenDays);
     data.restaurant.push(objectRestaurant);
     saveData_1(data);
     
