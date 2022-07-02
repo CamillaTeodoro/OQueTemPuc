@@ -14,11 +14,11 @@ window.onload = function listing() {
     >
       <div class="row">
         <div class="col-12 d-flex justify-content-center align-items-center">
-          <!-- <img
-            style="max-width:150px;width:100%"
+          <img
+            style="max-width:100px;width:100%"
             src="${data.restaurant[i].picture}"
             alt="palavra paladar"
-          /> -->
+          />
         </div>
         <div class="row">
           <div class="col-12 mt-2">
@@ -61,7 +61,7 @@ window.onload = function listing() {
                 />
               </div>
               <div class="col-8">
-                <h5 class="card-title">${products.data[i].descricao}</h5>
+                <h5 class="card-title">${products.data[i].nome}</h5>
                 <p class="card-text">${products.data[i].preco}</p>
                 <p class="card-text">${nome}</p>
               </div>
