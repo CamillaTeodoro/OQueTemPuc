@@ -63,6 +63,7 @@ window.onload = function listing(){
                  </div>
                </div>
             </div> 
+        </div>
              `
     }
     console.log("produtos: " + strProduct);
