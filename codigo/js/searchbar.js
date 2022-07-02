@@ -30,14 +30,14 @@ function renderSearch(results) {
     return;
   }
   resultsElement.innerHTML = "";
-  //cria o template de acordo com os itens recebidos da API
+
   for (const result of results) {
     const template = html` <div class="col-6">
       <div class="card">
         <img
           src="${result.urlFoto}"
           alt="${result.nome}"
-          style="height: 120px"
+          style="height: 130px"
           class="mt-2"
           onerror="this.src='img/not-found.png'"
         />
