@@ -8,7 +8,7 @@ window.onload = function listing() {
   let data = readData();
   let strHTMl = "";
   for (let i = 0; i < data.restaurant.length; i++) {
-    console.log(data.restaurant[i].biography);
+    // console.log(data.restaurant[i].biography);
     strHTMl += html` <div
       class="col-6 bg-white p-1 border border-light border-5"
     >
@@ -40,7 +40,7 @@ window.onload = function listing() {
    */
   let products = readProduct();
   let strProduct = "";
-  console.log(products);
+  // console.log(products);
   for (let i = products.data.length - 1; i >= 0; i--) {
     let nome = buscaNome(products.data[i].id_rest);
     let logo = buscaproduto(products.data[i].id_rest);
@@ -73,7 +73,7 @@ window.onload = function listing() {
       </div>
     `;
   }
-  console.log("produtos: " + strProduct);
+  // console.log("produtos: " + strProduct);
   document.querySelector("#listagemProduto").innerHTML = strProduct;
 
   // End List
