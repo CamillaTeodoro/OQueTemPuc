@@ -348,46 +348,35 @@ A parte visual do site foi construída com HTML, CSS e JavaScript, com a utiliza
 
 # Avaliação da Aplicação
 
-...... COLOQUE AQUI O SEU TEXTO ......
+A fase de testes se deu por meio de um planejamento de funções, análise de cenários importantes e uma bateria de testes realizada por 4 pessoas diferentes afim de encontrar possíveis erros ou falhas. Os cenários de realização dos testes da aplicação, estão registrados na seção seguinte (Plano e Registros de Testes).
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+## Plano e Registro de Testes
 
-## Plano de Testes
-
-...... COLOQUE AQUI O SEU TEXTO ......
-
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
->
-> **Links Úteis**:
->
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> - [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
-## Ferramentas de Testes (Opcional)
-
-...... COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
->
-> **Links Úteis**:
->
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
-## Registros de Testes
-
-...... COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
+| PÁGINA                   | TESTE A SER EXECUTADO                                                                     | RESULTADO ESPERADO                                                                                                 | RESULTADO ENCONTRADO                             |
+|--------------------------|-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| index.html               | Clicar no botão "Fazer login"                                                             | Ser redirecionado para página de Login                                                                             | Redirecionamento conforme esperado               |
+| index.html               | Clicar no botão "Cadastrar"                                                               | Ser redirecionado para página para escolher se o cadastro será de loja ou consumidor                               | Redirecionamento conforme esperado               |
+| login.html               | Fazer login com conta de consumidor existente: Lucas_martins@.com e senha: 123            | Ser direcionado para página inicial do sistema                                                                     | Redirecionamento conforme esperado               |
+| login.html               | Fazer login com conta de consumidor inexistente: testar qualquer email e senha            | Surgimento de pop-up na tela informando que email ou senha estão incorretos.                                       | Pop-up conforme esperado                         |
+| login.html               | Fazer login com conta de loja existente: restauranteNova_praca@novapraca.com e senha: 123 | Ser direcionado para a página de produtos cadastrados para este restaurante                                        | Redirecionamento conforme esperado               |
+| login.html               | Fazer login com conta de loja inexistente: testar qualquer email e senha                  | Surgimento de pop-up na tela informando que email ou senha estão incorretos.                                       | Pop-up conforme esperado                         |
+| cadastro.html            | Clicar no botão "Sou consumidor"                                                          | Ser redirecionado para página de cadastro de cliente                                                               | Redirecionamento conforme esperado               |
+| cadastro.html            | Clicar no botão "Sou loja"                                                                | Ser redirecionado para página de cadastro de fornecedor                                                            | Redirecionamento conforme esperado               |
+| cadastrocliente.html     | Digitar email de conta já existente                                                       | Informar que cadastro já existe                                                                                    | Sistema permite o cadastro com emails iguais     |
+| cadastrocliente.html     | Digitar senha igual para os dois campos                                                   | Realizar cadastro e ser direcionado para página de login                                                           | Redirecionamento conforme esperado               |
+| cadastrocliente.html     | Digitar senha diferente para os dois campos                                               | Surgimento de pop-up na tela informando que as senhas estão diferentes                                             | Pop-up conforme esperado                         |
+| cadastrofornecedor1.html | Digitar email de conta já existente                                                       | Informar que cadastro já existe                                                                                    | Sistema permite o cadastro com emails iguais     |
+| cadastrofornecedor1.html | Digitar senha diferente para os dois campos                                               | Surgimento de pop-up na tela informando que as senhas estão diferentes                                             | Sistema permite o cadastro com senhas diferentes |
+| cadastrofornecedor2.html | Deixar campos em branco e clicar em adicionar produtos                                    | Erro solicitando o preenchimento dos campos                                                                        | Sistema permite cadastro sem preencher os campos |
+| cadastrofornecedor2.html | Preencher os campos e clicar em adicionar produtos                                        | Ser redirecionado para página com lista de produtos                                                                | Redirecionamento conforme esperado               |
+| cadastroproduto.html     | Clicar no botão "Adicionar"                                                               | Ser redirecionado para página produto detalhes                                                                     | Redirecionamento conforme esperado               |
+| cadastroproduto.html     | Clicar no botão "Visualizar/Editar" sem clicar sobre o produto desejado                   | Surgimento de pop-up na tela informando que o produto não foi selecionado.                                         | Pop-up conforme esperado                         |
+| cadastroproduto.html     | Clicar no botão "Visualizar/Editar" tendo clicado sobre o produto desejado                | Ser redirecionado para página produto detalhes                                                                     | Redirecionamento conforme esperado               |
+| cadastroproduto.html     | Clicar no botão "Excluir"                                                                 | Surgimento de pop-up na tela informando produto foi excluido. Ao clicar em ok a lista de produtos será atualizada. | Sistema funcionando como esperado.               |
+| cadastroproduto.html     | Clicar no botão "Logout"                                                                  | Fazer logout e ser redirecionado para página de login                                                              | Sistema funcionando como esperado.               |
+| cadastroproduto.html     | Clicar no botão "Ir para página principal"                                                | Ser redirecionado para página principal                                                                            | Sistema funcionando como esperado.               |
+| cadastroproduto.html     | Clicar no botão "Ir para página principal"                                                | Visualizar o produto recem cadastrado na página principal                                                          | Sistema funcionando como esperado.               |
+|                          |                                                                                           |                                                                                                                    |                                                  |
 
 # Referências
 
