@@ -18,7 +18,7 @@ function registerPeople() {
     saveData_2(data);
     window.location.href = LOGIN_URL;
   } else {
-    alert("As senhas não estão iguais.");
+    alert("As senhas não são iguais.");
   }
 }
 
