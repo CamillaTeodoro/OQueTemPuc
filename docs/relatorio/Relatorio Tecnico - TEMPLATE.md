@@ -363,7 +363,7 @@ A fase de testes se deu por meio de um planejamento de funções, análise de ce
 | cadastroproduto.html     | Clicar no botão "Logout"                                                                  | Fazer logout e ser redirecionado para página de login                                                              | Sistema funcionando como esperado.               |
 | cadastroproduto.html     | Clicar no botão "Ir para página principal"                                                | Ser redirecionado para página principal                                                                            | Sistema funcionando como esperado.               |
 | cadastroproduto.html     | Clicar no botão "Ir para página principal"                                                | Visualizar o produto recem cadastrado na página principal                                                          | Sistema funcionando como esperado.               |
-|                          |                                                                                           |                                                                                                                    |                                                  |
+
 
 # Referências
 
