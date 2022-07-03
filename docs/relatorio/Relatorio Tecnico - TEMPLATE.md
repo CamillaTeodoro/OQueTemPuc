@@ -320,20 +320,7 @@ A partir das informações coletadas nas entrevistas, vimos que a melhor soluç�
 
 ## Tecnologias Utilizadas
 
-A parte visual do site foi construída com HTML, CSS e JavaScript, com a utilização da framework Bootstrap (https://getbootstrap.com/). O projeto visual foi feito seguindo os wireframes criados no Figma
-
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
->
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+As tecnologias fundamentais para o desenvolvimento da aplicação foram as linguagens HTML, CSS e a framework Bootstrap que estão presentes em toda a interação do usuário com a ferramenta. O Javascript do site foi criado e personalizado de acordo com a funcionalidade de cada página e todos os dados foram armazenados no localstorage para ter uma interação dinâmica entre as páginas do site. Toda essa locação de dados de um lugar para o outro, tratamento de erros e contato entre usuário e aplicação é feito em JavaScript, principalmente o cadastro de informações, em que o consumidor e a loja fazem seu registro de pessoa ou restaurante e, nesse último caso, registro de produtos em sua página.
 
 ## Arquitetura da solução
 
