@@ -17,7 +17,8 @@ window.onload = function listing() {
           <img
             style="max-width:100px;width:100%"
             src="${data.restaurant[i].picture}"
-            alt="palavra paladar"
+            alt="${data.restaurant[i].name}"
+            onerror="this.src='img/not-found.png'"
           />
         </div>
         <div class="row">
@@ -50,6 +51,7 @@ window.onload = function listing() {
             src=${products.data[i].urlFoto}
             class="card-img-top"
             alt="${products.data[i].nome}"
+            onerror="this.src='img/not-found.png'"
           />
           <div class="card-body">
             <div class="row">
