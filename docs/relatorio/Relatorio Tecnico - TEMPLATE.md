@@ -2,7 +2,7 @@
 
 `TÍTULO DO PROJETO`
 
-Informações sobre bares e restaurantes dentro e ao redor da PUC.
+O que Tem? PUC - Coreu
 
 `CURSO`
 
@@ -316,11 +316,11 @@ ou issues a equipe optou por não utilizar neste primeiro momento.
 
 # Projeto da Solução
 
-...... COLOQUE AQUI O SEU TEXTO ......
+A partir das informações coletadas nas entrevistas, vimos que a melhor solução para o problema da falta de informações sobre restaurantes e lanchonetes da PUC MINAS - Coração Eucarístico deveria ser gratuita, intuitiva e de fácil acesso em aparelhos móveis. Com isso, idealizamos o "O que tem? Puc Coreu", um site que pode ser acesso sem e com login para ver informações, produtos e novidades desse tipo de comércio da PUC. Essas informações são colocadas pelos próprios estabelecimentos, atráves de um cadastro que eles fazem na plataforma.
 
 ## Tecnologias Utilizadas
 
-...... COLOQUE AQUI O SEU TEXTO ......
+A parte visual do site foi construída com HTML, CSS e JavaScript, com a utilização da framework Bootstrap (https://getbootstrap.com/). O projeto visual foi feito seguindo os wireframes criados no Figma
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
