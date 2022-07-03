@@ -16,8 +16,6 @@ Ciência da Computação
 
 - Olga Camilla Silva Teodoro
 
-- Saulo Braga Silveira
-
 - Vinicius Augusto Alves Santos Mello
 
 # Estrutura do Documento
@@ -58,47 +56,77 @@ Ciência da Computação
 
 ## Problema
 
-> Aproximadamente 60% dos alunos da PUC desconhecem os serviço e produtos oferecidos na região,
-> como alimentos, preços, promoções e atrações.
-> Consequentemente isso diminui o potencial de compra e satisfação do cliente.
->
-> Em pesquisas de opinião, foi identificado que isso ocorre devido a determinadas situações, como:
->
-> - Falta de tempo.
-> - praticidade de ir onde já conhecem .
-> - Preconceito em relação ao preço.
+Com quase 340 mil metros quadrados, o campus da PUC MINAS Coração Eucarístico possui dezenas de prédios,
+muitos deles contendo comércios na área de alimentação como lanchonetes e restaurantes, além dos vários estabelecimentos
+que existem em suas proximidades. Entretanto, não 
+existe nenhum método de fácil acesso que mostre a localização e identificação desses estabelecimentos dentro 
+da universidade. Além disso, cada um desses comércios oferecem serviços e produtos diferentes com preços únicos.
+
+Através de entrevistas com funcionários e proprietários de alguns desses comércios, identificamos que o maior
+fator que leva as pessoas a serem clientes desses estabelecimentos é a proximidade do lugar com
+os lugares frequentados pelo cliente dentro da universidade. Além disso, para grande parte deles, a maior estratégia 
+de marketing, sendo muitas vezes a única, é o "boca-a-boca", o fato de que seus clientes acabam recomendando o lugar
+para seus amigos e conhecidos.
+
+Também fizemos entrevistas com alunos e funcionários do campus, nas quais vimos que aproximadamente 60% destes desconhecem 
+os serviços e produtos oferecidos na região, como alimentos, preços, promoções e atrações. Foram identificados quatro maiores 
+motivos para isso:
+
+- Falta de tempo para explorar o campus;
+- Praticidade de ir onde já conhecem ou ir apenas em locais perto dos prédios onde estudam ou trabalham;
+- Preconceito em relação ao preço;
+- Vergonha de explorar os comércios.
+
+Esse desconhecimento também leva muitas pessoas a não ter vontade alguma de explorar os comércios na universidade e a
+trazer seus próprios alimentos ou se alimentar em casa.
+
+A pesquisa também revelou que, apesar desses motivos, a maioria dos estudantes gostariam de saber mais informações 
+sobre os restaurantes, lanchonetes e bares dentro e nas proximidades do campus.
+
+É possível, então, identificar o problema da falta de disseminação de informações sobre os comércios alimentícios do campus, que 
+objetivamos analisar neste projeto.
 
 ## Objetivos
 
-> O principal objetivo deste projeto é criar um site para que os alunos acessem e obtenham facilmente
-> informações sobre estabelecimentos próximas à PUC.
->
-> No entanto, este projeto também visa:
->
-> - Melhorar o fluxo de clientes nos estabelecimentos.
-> - Aumentar o consumo na região.
-> - Melhorar o relacionamento entre o cliente e a empresa.
+O principal objetivo deste projeto é criar uma solução que permita aos alunos e funcionários da PUC MINAS Coração Eucarístico 
+terem acesso a informações sobre restaurantes, lanchonetes e bares dentro e próximos ao campus com facilidade e sem constrangimento.
+
+Com isso, este projeto também visa:
+
+- Proporcionar uma melhor vivência no campus aos alunos e funcionários da PUC;
+- Possibilitar aos comércios a obtenção de novos clientes;
 
 ## Justificativa
 
-> A motivação para a realização deste projeto deve-se ao fato de que grande parte dos alunos
-> afirmaram não conhecer a maioria dos produtos e serviços oferecidos na região. Por meio das pesquisas de opinião,
-> identificou-se que um dos principais fatores na ocorrência desse problema é o pré-conceito em relação ao preço do produto,
-> pois aproximadamente 60% dos entrevistados alegaram não entrar em novos estabelecimentos
-> por receio do valor, diante desse cenário é imprescindível a criação de um site no
-> qual os alunos possam se informar de maneira rápida e fácil sem nenhum constrangimento.
+O problema da falta de disseminação de informações sobre os comércios alimentícios do campus dificulta aos 
+estudantes conhecer e aproveitar as oportunidades nessa área na universidade que frequentam e dificulta aos
+comércios a obtenção de novos clientes. 
+
+Além disso, pelo fato da universidade ter ficado quase 2 anos sem atividades presenciais por causa da pandemia, grande parte
+dos alunos que a frequentam atualmente não conhecem muito o local, o que diminuiu bastante o "boca-a-boca", que era muito importante 
+para os estabelecimentos serem descobertos pelas pessoas.
+
+A criação de uma solução para esse problema permitirá aos alunos terem acesso a essas informações e, consequentemente, 
+ter uma maior chance de aproveitar seu tempo de estudante na universidade. Ela também será uma forma para que os comércios 
+possam expor seus produtos e serviços e fazendo com que mais pessoas os conheçam.
 
 ## Público-Alvo
 
-> O público-alvo é composto principalmente por alunos da PUC e pessoas que normalmente consomem na região.
+O público-alvo deste projeto é composto pelas pessoas que frequentam o campus da PUC MINAS Coração Eucarístico como alunos, professores
+e funcionários e também os proprietários ou funcionários de restaurantes, lanchonetes e bares dentro e ao redor
+do campus.
 
 # Especificações do Projeto
 
-Para podermos definir quem eram as personas que usariam nosso aplicativo, realizamos uma pesquisa presencial com 45 alunos da PUC do Coração Eucaristico. Conversamos com alunos de diversos cursos e periodos para podermos entender quais eram suas necessidades em se tratando de consumo de alimentos dentro e fora da universidade.
+Para podermos definir quem eram as personas que usariam nosso aplicativo, realizamos uma pesquisa presencial com 45 alunos da PUC MINAS Coração Eucarístico. Conversamos com alunos de diversos cursos e periodos para podermos entender quais eram suas necessidades E desejos em relação ao consumo de alimentos dentro e fora da universidade. Conversamos também com proprietários e funcionários de 10 estabelecimentos dentro e ao redor do campus da PUC.
 
-Conversamos também com proprietários de 10 estabelecimentos dentro e fora da PUC.
+Além disso, uma pesquisa feita em 2014 pela rede colaborativa para estudantes universitários Passei Direito e publicada pelo Correio Braziliense (que pode ser conferida em https://www.correiobraziliense.com.br/app/noticia/eu-estudante/ensino_ensinosuperior/2014/10/07/ensino_ensinosuperior_interna,451143/pesquisa-mostra-como-estudantes-usam-smartphone-para-estudar.shtml) apontou que quase 95% deles utilizam
+smartphones com acesso à internet. 
 
-E foi com base nessa necessidade levantada que os requisitos funcionais do projeto foram definidos, de forma a construirmos um aplicativo de fácil e rápido uso.
+Com base na necessidade de praticidade levantada pelos alunos e funcionários e no fato de que a grande maioria 
+dessas pessoas tem acesso à internet em praticamente qualquer lugar da universidade por causa dos smartphones que carregam, foi definido que o projeto
+seria a criação de um site otimizado para o meio mobile no qual seja possível às pessoas visualizarem informações sobre os comércios alimentícios nas proximidades
+do campus colocadas pelos próprios estabelecimentos através do cadastro de sua loja.
 
 ## Personas e Mapas de Empatia
 
@@ -214,8 +242,8 @@ Aqui são mostradas os wireframes das principais telas do site.
 
 # Metodologia
 
-> O método "Design Thinking" foi utilizado na fase de concepção do projeto.
-> Já na fase de desenvolvimento, a forma de gerenciamento escolhida pela equipe foi o Scrumban.
+O método "Design Thinking" foi utilizado na fase de concepção do projeto.
+Já na fase de desenvolvimento, a forma de gerenciamento escolhida pela equipe foi o Scrumban.
 
 ## Divisão de Papéis
 
@@ -232,8 +260,9 @@ Aqui são mostradas os wireframes das principais telas do site.
 > - Helena Ferreira Fernandes
 > - Matheus Pimentel Kansaon
 > - Olga Camilla Silva Teodoro
-> - Saulo Braga Silveira
 > - Vinicius Augusto Alves Santos Mello
+> 
+> ex-Membro da equipe: Saulo Braga Silveira, fez parte da idealização do projeto na Sprint 1, mas deixou o curso por motivos pessoais.
 
 ## Ferramentas
 
@@ -256,32 +285,32 @@ Aqui são mostradas os wireframes das principais telas do site.
 > - Microsoft Teams
 > - GitHub
 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> um fácil manuseio por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos o figma por melhor captar as
-> necessidades da nossa solução.
+O editor de código foi escolhido porque ele possui uma integração com o
+sistema de versão. As ferramentas de comunicação utilizadas possuem
+um fácil manuseio por isso foram selecionadas. Por fim, para criar
+diagramas utilizamos o figma por melhor captar as
+necessidades da nossa solução.
 
 ## Controle de Versão
 
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
->
-> O projeto segue a seguinte convenção para o nome de branchs:
->
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
->
-> Quanto à gerência de commits cada desenvolvedor tem a sua autononomia, porém deve-se respeitar
-> o propósito de cada branch.
->
-> Os merges são utilizados para a unificação, sendo executado somente após a finalização dos testes, também
-> por medida de segurança ao efetuar um merge é realizado o pull requests para averiguação das mundanças.
-> Em relação as tags
-> ou issues a equipe optou por não utilizar neste primeiro momento.
+A ferramenta de controle de versão adotada no projeto foi o
+[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
+foi utilizado para hospedagem do repositório `upstream`.
+
+O projeto segue a seguinte convenção para o nome de branchs:
+
+- `master`: versão estável já testada do software
+- `unstable`: versão já testada do software, porém instável
+- `testing`: versão em testes do software
+- `dev`: versão de desenvolvimento do software
+
+Quanto à gerência de commits cada desenvolvedor tem a sua autononomia, porém deve-se respeitar
+o propósito de cada branch.
+
+Os merges são utilizados para a unificação, sendo executado somente após a finalização dos testes, também
+por medida de segurança ao efetuar um merge é realizado o pull requests para averiguação das mundanças.
+Em relação as tags
+ou issues a equipe optou por não utilizar neste primeiro momento.
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
@@ -315,7 +344,7 @@ Aqui são mostradas os wireframes das principais telas do site.
 >
 > **Exemplo do diagrama de Arquitetura**:
 >
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+> (images/diagrama.png)
 
 # Avaliação da Aplicação
 
@@ -362,12 +391,6 @@ Aqui são mostradas os wireframes das principais telas do site.
 
 # Referências
 
-...... COLOQUE AQUI O SEU TEXTO ......
+Pesquisa mostra como estudantes usam smartphone para estudar - Correio Braziliense, 2014 - acesso em: https://www.correiobraziliense.com.br/app/noticia/eu-estudante/ensino_ensinosuperior/2014/10/07/ensino_ensinosuperior_interna,451143/pesquisa-mostra-como-estudantes-usam-smartphone-para-estudar.shtml
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
->
-> **Links Úteis**:
->
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+PUC MINAS EM NÚMEROS - Informe Institucional 2° semestre dE 2019 - acesso em: https://www.pucminas.br/AdministracaoSuperior/Secretarias/Documents/puc_numeros_2019_02.pdf
