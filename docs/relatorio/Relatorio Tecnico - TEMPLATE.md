@@ -337,7 +337,7 @@ As tecnologias fundamentais para o desenvolvimento da aplicação foram as lingu
 
 A fase de testes se deu por meio de um planejamento de funções, análise de cenários importantes e uma bateria de testes realizada por 4 pessoas diferentes afim de encontrar possíveis erros ou falhas. Os cenários de realização dos testes da aplicação, estão registrados na seção seguinte (Plano e Registros de Testes).
 
-## Plano e Registro de Testes
+## Plano de Testes
 
 | PÁGINA                   | TESTE A SER EXECUTADO                                                                     | RESULTADO ESPERADO                                                                                                 | RESULTADO ENCONTRADO                             |
 |--------------------------|-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
@@ -364,6 +364,9 @@ A fase de testes se deu por meio de um planejamento de funções, análise de ce
 | cadastroproduto.html     | Clicar no botão "Ir para página principal"                                                | Ser redirecionado para página principal                                                                            | Sistema funcionando como esperado.               |
 | cadastroproduto.html     | Clicar no botão "Ir para página principal"                                                | Visualizar o produto recem cadastrado na página principal                                                          | Sistema funcionando como esperado.               |
 
+## Registro de Testes
+
+....Texto.....
 
 # Referências
 
