@@ -1,5 +1,6 @@
 let data = readPeople();
 let store = readData();
+let produtos = readProdutos();
 
 function loginUser() {
   let id = 0,

@@ -7,7 +7,7 @@ function logoutUser() {
     alert("Logout efetuado com sucesso.");
 
     // REDIRECIONA PARA ESSA PAGINA APÓS LOGOUT
-    window.location.href = "paginaprincipal.html";
+    window.location.href = "login.html";
 
     // Excluir os valores do section storage
   } else {

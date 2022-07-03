@@ -92,6 +92,97 @@ function readProduct ( ){
     }
 }
 
+function saveData_3(data) {
+    localStorage.setItem("pi_produto", JSON.stringify(data));
+}
+
+function readProdutos(){
+    let str = localStorage.getItem('pi_produto');
+    let objData = {};
+
+    if(str){
+        objData = JSON.parse(str);
+    }else{
+    let produtos_inicial = {
+        data: [
+          {
+            id: 1,
+            nome: "Pão de Queijo",
+            id_rest: 1,
+            preco: 2.59,
+            descricao: "Pão de Queijo comum, 100g",
+            urlFoto:
+              "https://images.unsplash.com/photo-1598142982901-df6cec10ae35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cCVDMyVBM28lMjBkZSUyMHF1ZWlqb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+          },
+          {
+            id: 2,
+            nome: "Coxinha",
+            id_rest: 2,
+            preco: 4.59,
+            descricao: "Coxinha de frango, 100g",
+            urlFoto:
+              "https://media.istockphoto.com/photos/drumsticks-picture-id926773634?s=612x612",
+          },
+          {
+            id: 3,
+            nome: "Pastel Assado",
+            id_rest: 1,
+            preco: 4.69,
+            descricao: "Pastel assado de carne, 100g",
+            urlFoto:
+              "https://images.pexels.com/photos/12267750/pexels-photo-12267750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          },
+          {
+            id: 4,
+            nome: "Cachorro Quente",
+            id_rest: 1,
+            preco: 8.99,
+            descricao: "Cachorro quente completo. Gratis um copo de refrigerante.",
+            urlFoto:
+              "https://images.unsplash.com/photo-1599599810694-b5b37304c041?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+          },
+          {
+            id: 5,
+            nome: "Misto Quente",
+            id_rest: 3,
+            preco: 5.59,
+            descricao: "Misto Quente de queijo com presunto",
+            urlFoto:
+              "https://images.unsplash.com/photo-1581574303858-f00f95088f7b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          },
+          {
+            id: 6,
+            nome: "Macarrão a bolonhesa",
+            id_rest: 2,
+            preco: 10.99,
+            descricao: "Macarrão com molho de carne.",
+            urlFoto:
+              "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+          },
+          {
+            id: 7,
+            nome: "Tortinha de frango",
+            id_rest: 2,
+            preco: 5.99,
+            descricao: "Tortinha de frango com catupiry",
+            urlFoto:
+              "https://images.unsplash.com/photo-1612477491914-a2f46ef8586e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1191&q=80",
+          },
+          {
+            id: 8,
+            nome: "Prato do dia",
+            id_rest: 3,
+            preco: 17.99,
+            descricao: "DE segunda a sexta. Cada dia um prato diferente.",
+            urlFoto:
+              "https://images.unsplash.com/photo-1585975754487-25489eabf36a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          }
+        ]
+      };
+      saveData_3(produtos_inicial);
+    }   
+}
+
 function generateUUID() { // Public Domain/MIT
     var d = new Date().getTime();//Timestamp
     var d2 = (performance && performance.now && (performance.now()*1000)) || 0;//Time in microseconds since page-load or 0 if unsupported
