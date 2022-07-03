@@ -1,4 +1,3 @@
-const html = String.raw;
 const form = document.getElementById("search-form");
 if (form != null) {
   form.addEventListener("submit", searchProduct);
@@ -32,6 +31,7 @@ function renderSearch(results) {
   resultsElement.innerHTML = "";
 
   for (const result of results) {
+    const html = String.raw;
     const template = html` <div class="col-6">
       <div class="card">
         <img
