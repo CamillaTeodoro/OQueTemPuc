@@ -363,7 +363,7 @@ A fase de testes se deu por meio de um planejamento de funções, análise de ce
 | cadastroproduto.html     | Clicar no botão "Ir para página principal"                                                | Ser redirecionado para página principal                                                                            | Sistema funcionando como esperado.               |
 | cadastroproduto.html     | Clicar no botão "Ir para página principal"                                                | Visualizar o produto recem cadastrado na página principal                                                          | Sistema funcionando como esperado.               |
 
-## Registro de Testes
+## Registros de Testes
 
 Dentro do site ainda existem alguns erros possíveis. Como por exemplo, quando o HTML da página de produtos é executado diretamente, o cadastro ainda consegue ser efetuado e por não ter passado pela página de restaurante, esse elemento fica classificado como null. Há também alguns problemas de verificação de dados, assim como quando a ferramenta não bloqueia um email já cadastrado e o cadastra mais uma vez, isso também acontece com nomes de restaurantes. Porém, como usamos a metodologia scrum estamos entregando um site funcional básico, cujas falhas e outras implementações serão trabalhadas nas próximas fases.
 
