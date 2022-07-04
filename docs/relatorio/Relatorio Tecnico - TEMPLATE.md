@@ -57,18 +57,18 @@ Ciência da Computação
 
 Com quase 340 mil metros quadrados, o campus da PUC MINAS Coração Eucarístico possui dezenas de prédios,
 muitos deles contendo comércios na área de alimentação como lanchonetes e restaurantes, além dos vários estabelecimentos
-que existem em suas proximidades. Entretanto, não 
-existe nenhum método de fácil acesso que mostre a localização e identificação desses estabelecimentos dentro 
+que existem em suas proximidades. Entretanto, não
+existe nenhum método de fácil acesso que mostre a localização e identificação desses estabelecimentos dentro
 da universidade. Além disso, cada um desses comércios oferecem serviços e produtos diferentes com preços únicos.
 
 Através de entrevistas com funcionários e proprietários de alguns desses comércios, identificamos que o maior
 fator que leva as pessoas a serem clientes desses estabelecimentos é a proximidade do lugar com
-os lugares frequentados pelo cliente dentro da universidade. Além disso, para grande parte deles, a maior estratégia 
+os lugares frequentados pelo cliente dentro da universidade. Além disso, para grande parte deles, a maior estratégia
 de marketing, sendo muitas vezes a única, é o "boca-a-boca", o fato de que seus clientes acabam recomendando o lugar
 para seus amigos e conhecidos.
 
-Também fizemos entrevistas com alunos e funcionários do campus, nas quais vimos que aproximadamente 60% destes desconhecem 
-os serviços e produtos oferecidos na região, como alimentos, preços, promoções e atrações. Foram identificados quatro maiores 
+Também fizemos entrevistas com alunos e funcionários do campus, nas quais vimos que aproximadamente 60% destes desconhecem
+os serviços e produtos oferecidos na região, como alimentos, preços, promoções e atrações. Foram identificados quatro maiores
 motivos para isso:
 
 - Falta de tempo para explorar o campus;
@@ -79,15 +79,15 @@ motivos para isso:
 Esse desconhecimento também leva muitas pessoas a não ter vontade alguma de explorar os comércios na universidade e a
 trazer seus próprios alimentos ou se alimentar em casa.
 
-A pesquisa também revelou que, apesar desses motivos, a maioria dos estudantes gostariam de saber mais informações 
+A pesquisa também revelou que, apesar desses motivos, a maioria dos estudantes gostariam de saber mais informações
 sobre os restaurantes, lanchonetes e bares dentro e nas proximidades do campus.
 
-É possível, então, identificar o problema da falta de disseminação de informações sobre os comércios alimentícios do campus, que 
+É possível, então, identificar o problema da falta de disseminação de informações sobre os comércios alimentícios do campus, que
 objetivamos analisar neste projeto.
 
 ## Objetivos
 
-O principal objetivo deste projeto é criar uma solução que permita aos alunos e funcionários da PUC MINAS Coração Eucarístico 
+O principal objetivo deste projeto é criar uma solução que permita aos alunos e funcionários da PUC MINAS Coração Eucarístico
 terem acesso a informações sobre restaurantes, lanchonetes e bares dentro e próximos ao campus com facilidade e sem constrangimento.
 
 Com isso, este projeto também visa:
@@ -97,16 +97,16 @@ Com isso, este projeto também visa:
 
 ## Justificativa
 
-O problema da falta de disseminação de informações sobre os comércios alimentícios do campus dificulta aos 
+O problema da falta de disseminação de informações sobre os comércios alimentícios do campus dificulta aos
 estudantes conhecer e aproveitar as oportunidades nessa área na universidade que frequentam e dificulta aos
-comércios a obtenção de novos clientes. 
+comércios a obtenção de novos clientes.
 
 Além disso, pelo fato da universidade ter ficado quase 2 anos sem atividades presenciais por causa da pandemia, grande parte
-dos alunos que a frequentam atualmente não conhecem muito o local, o que diminuiu bastante o "boca-a-boca", que era muito importante 
+dos alunos que a frequentam atualmente não conhecem muito o local, o que diminuiu bastante o "boca-a-boca", que era muito importante
 para os estabelecimentos serem descobertos pelas pessoas.
 
-A criação de uma solução para esse problema permitirá aos alunos terem acesso a essas informações e, consequentemente, 
-ter uma maior chance de aproveitar seu tempo de estudante na universidade. Ela também será uma forma para que os comércios 
+A criação de uma solução para esse problema permitirá aos alunos terem acesso a essas informações e, consequentemente,
+ter uma maior chance de aproveitar seu tempo de estudante na universidade. Ela também será uma forma para que os comércios
 possam expor seus produtos e serviços e fazendo com que mais pessoas os conheçam.
 
 ## Público-Alvo
@@ -120,9 +120,9 @@ do campus.
 Para podermos definir quem eram as personas que usariam nosso aplicativo, realizamos uma pesquisa presencial com 45 alunos da PUC MINAS Coração Eucarístico. Conversamos com alunos de diversos cursos e periodos para podermos entender quais eram suas necessidades E desejos em relação ao consumo de alimentos dentro e fora da universidade. Conversamos também com proprietários e funcionários de 10 estabelecimentos dentro e ao redor do campus da PUC.
 
 Além disso, uma pesquisa feita em 2014 pela rede colaborativa para estudantes universitários Passei Direito e publicada pelo Correio Braziliense (que pode ser conferida em https://www.correiobraziliense.com.br/app/noticia/eu-estudante/ensino_ensinosuperior/2014/10/07/ensino_ensinosuperior_interna,451143/pesquisa-mostra-como-estudantes-usam-smartphone-para-estudar.shtml) apontou que quase 95% deles utilizam
-smartphones com acesso à internet. 
+smartphones com acesso à internet.
 
-Com base na necessidade de praticidade levantada pelos alunos e funcionários e no fato de que a grande maioria 
+Com base na necessidade de praticidade levantada pelos alunos e funcionários e no fato de que a grande maioria
 dessas pessoas tem acesso à internet em praticamente qualquer lugar da universidade por causa dos smartphones que carregam, foi definido que o projeto
 seria a criação de um site otimizado para o meio mobile no qual seja possível às pessoas visualizarem informações sobre os comércios alimentícios nas proximidades
 do campus colocadas pelos próprios estabelecimentos através do cadastro de sua loja.
@@ -260,7 +260,7 @@ Já na fase de desenvolvimento, a forma de gerenciamento escolhida pela equipe f
 > - Matheus Pimentel Kansaon
 > - Olga Camilla Silva Teodoro
 > - Vinicius Augusto Alves Santos Mello
-> 
+>
 > ex-Membro da equipe: Saulo Braga Silveira, fez parte da idealização do projeto na Sprint 1, mas deixou o curso por motivos pessoais.
 
 ## Ferramentas
@@ -311,8 +311,6 @@ por medida de segurança ao efetuar um merge é realizado o pull requests para a
 Em relação as tags
 ou issues a equipe optou por não utilizar neste primeiro momento.
 
-# **############## SPRINT 1 ACABA AQUI #############**
-
 # Projeto da Solução
 
 A partir das informações coletadas nas entrevistas, vimos que a melhor solução para o problema da falta de informações sobre restaurantes e lanchonetes da PUC MINAS - Coração Eucarístico deveria ser gratuita, intuitiva e de fácil acesso em aparelhos móveis. Com isso, idealizamos o "O que tem? Puc Coreu", um site que pode ser acesso sem e com login para ver informações, produtos e novidades desse tipo de comércio da PUC. Essas informações são colocadas pelos próprios estabelecimentos, atráves de um cadastro que eles fazem na plataforma.
@@ -328,15 +326,10 @@ O site desenvolvido pelo grupo é um protótipo da aplicação que seria utiliza
 Também foi desenvolvido um pequeno banco de dados em formato JSON com algumas lojas e produtos para popular a página principal e testar a visualização de informações feita dinamicamente com JavaScript.
 
 O diagrama de arquitetura do projeto pode ser visto abaixo:
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
->
-> **Exemplo do diagrama de Arquitetura**:
->
-> (imaages/../images/DIAGRAMA.png)
-> (/images/DIAGRAMA.png)
 
-No navegador aparecem as páginas web criadas diâmicamente com HTML, CSS e JavaScript que, inicialmente, tenta resgatar dados do LocalStorage. Caso este esteja vazio, as páginas são preenchidas apenas pelos dados armazenados no projeto em formato JSON. Ao fazer o cadastro de novos estabelecimentos e produtos, esses dados são armazenados no LocalStorage do usuário, sendo integrados às informações que estavam no JSON inicial. 
+![Exemplo de Diagrama de Arquitetura](imaagens/../images/DIAGRAMA.png)
+
+No navegador aparecem as páginas web criadas diâmicamente com HTML, CSS e JavaScript que, inicialmente, tenta resgatar dados do LocalStorage. Caso este esteja vazio, as páginas são preenchidas apenas pelos dados armazenados no projeto em formato JSON. Ao fazer o cadastro de novos estabelecimentos e produtos, esses dados são armazenados no LocalStorage do usuário, sendo integrados às informações que estavam no JSON inicial.
 O login de usuários e a edição de produtos são feitas através da passagem de parâmetros pela url das páginas. As páginas então, antes de tudo, lêem a querystring da sua url através de um método feito com JavaScript e então são formatadas de acordo com o parâmetro ID encontrado, aparecendo ao usuário com o visual e as funções corretas.
 
 # Avaliação da Aplicação
@@ -346,7 +339,7 @@ A fase de testes se deu por meio de um planejamento de funções, análise de ce
 ## Plano de Testes
 
 | PÁGINA                   | TESTE A SER EXECUTADO                                                                     | RESULTADO ESPERADO                                                                                                 | RESULTADO ENCONTRADO                             |
-|--------------------------|-------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| ------------------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------ |
 | index.html               | Clicar no botão "Fazer login"                                                             | Ser redirecionado para página de Login                                                                             | Redirecionamento conforme esperado               |
 | index.html               | Clicar no botão "Cadastrar"                                                               | Ser redirecionado para página para escolher se o cadastro será de loja ou consumidor                               | Redirecionamento conforme esperado               |
 | login.html               | Fazer login com conta de consumidor existente: Lucas_martins@.com e senha: 123            | Ser direcionado para página inicial do sistema                                                                     | Redirecionamento conforme esperado               |
