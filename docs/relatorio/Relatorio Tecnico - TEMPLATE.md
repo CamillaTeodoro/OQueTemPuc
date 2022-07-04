@@ -323,14 +323,21 @@ As tecnologias fundamentais para o desenvolvimento da aplicação foram as lingu
 
 ## Arquitetura da solução
 
-...... COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+O site desenvolvido pelo grupo é um protótipo da aplicação que seria utilizada na vida real pois não envia ou recebe dados de cadastros pela internet. O site funciona comunicando apenas com o armazenamento salvo no navegador do usuário que o utiliza, o Local Storage.
 
+Também foi desenvolvido um pequeno banco de dados em formato JSON com algumas lojas e produtos para popular a página principal e testar a visualização de informações feita dinamicamente com JavaScript.
+
+O diagrama de arquitetura do projeto pode ser visto abaixo:
 > Inclua um diagrama da solução e descreva os módulos e as tecnologias
 > que fazem parte da solução. Discorra sobre o diagrama.
 >
 > **Exemplo do diagrama de Arquitetura**:
 >
-> (images/diagrama.png)
+> (imaages/../images/DIAGRAMA.png)
+> (/images/DIAGRAMA.png)
+
+No navegador aparecem as páginas web criadas diâmicamente com HTML, CSS e JavaScript que, inicialmente, tenta resgatar dados do LocalStorage. Caso este esteja vazio, as páginas são preenchidas apenas pelos dados armazenados no projeto em formato JSON. Ao fazer o cadastro de novos estabelecimentos e produtos, esses dados são armazenados no LocalStorage do usuário, sendo integrados às informações que estavam no JSON inicial. 
+O login de usuários e a edição de produtos são feitas através da passagem de parâmetros pela url das páginas. As páginas então, antes de tudo, lêem a querystring da sua url através de um método feito com JavaScript e então são formatadas de acordo com o parâmetro ID encontrado, aparecendo ao usuário com o visual e as funções corretas.
 
 # Avaliação da Aplicação
 
