@@ -8,7 +8,7 @@ function geocode(location) {
     "https://maps.googleapis.com/maps/api/geocode/json?" +
       new URLSearchParams({
         address: location,
-        key: "AIzaSyBoli9EYB_otB6WgX8AOp4WNmva5CNPocA",
+        key: "AIzaSyBoli9EYB_otB6WgX8AOp4WNmva",
       })
   )
     .then(function (response) {
